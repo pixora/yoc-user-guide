@@ -1,3 +1,5 @@
+![Logo](./assets/logo2.png "Logo")
+
 # Welcome to Yacht On Cloud user guide.
 
 ## Login Screen
