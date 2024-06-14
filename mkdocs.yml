@@ -1,5 +1,5 @@
 site_name: User Guide
-site_url: https://mydomain.org/
+site_url: https://pixora.github.io/yoc-user-guide/
 theme:
   name: material
   logo: assets/logo.png
