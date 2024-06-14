@@ -1,5 +1,5 @@
 <p>
-<img src="/assets/logo2.png" />
+<img src="../assets/logo2.png" />
 </p>
 <br/>
 {% if config.site_name %}

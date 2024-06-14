@@ -9,7 +9,7 @@ Per effettuare il log-in è obbligatorio l’inserimento nei form dei seguenti c
 
 
 <div style="margin-top: 30px;">
-    <img src="/assets/login_screen.png" alt="Login Screen" width="250">
+    <img src="./assets/login_screen.png" alt="Login Screen" width="250">
 </div>
 
 Dopo aver riempito i campi sarà possibile cliccare sul tasto `Log In`.
@@ -25,7 +25,7 @@ In questa schermata l'utente customer avrà la possibilità di visualizzare i pr
 Nel caso fosse presente un solo vessel per lo specifico customer si procederà alla selezione automatica del vessel subito dopo la login page. 
 
 <div style="margin-top: 30px;">
-    <img src="/assets/vessel_selection.png" alt="Vessel Screen">
+    <img src="./assets/vessel_selection.png" alt="Vessel Screen">
 </div>
 
 
@@ -37,7 +37,7 @@ Lo sfondo `verde` o `grigio` indicherà rispettivamente una imbarcazione online 
 <div style="margin-bottom: 30px;"></div>
 
 <div>
-    <img src="/assets/home_page.png" alt="Home Screen" width="250">
+    <img src="./assets/home_page.png" alt="Home Screen" width="250">
 </div>
 
 <div style="margin-bottom: 50px;"></div>
@@ -62,8 +62,8 @@ Cliccando per armare ci comparirà un pop-up e ci verrà richiesto il pin di sic
 
 
 <div style="margin-top: 30px;">
-    <img src="/assets/Armed_pin.png" alt="Armed" width="300" style="display: inline-block;">
-    <img src="/assets/triggere_pop.png" alt="Triggered" width="300" style="display: inline-block; margin-left: 70px;">
+    <img src="./assets/Armed_pin.png" alt="Armed" width="300" style="display: inline-block;">
+    <img src="./assets/triggere_pop.png" alt="Triggered" width="300" style="display: inline-block; margin-left: 70px;">
 </div>
 
 <div style="margin-bottom: 50px;"></div>
@@ -80,7 +80,7 @@ Quando ci sarà un nuovo allarme sul pulssante `Security` apparirà un pallino r
 
 
 <div style="text-align: center; margin-top:30px;">
-    <img src="/assets/menu_rapido.png" alt="Menu Rapido" width="350">
+    <img src="./assets/menu_rapido.png" alt="Menu Rapido" width="350">
 </div>
 
 
@@ -97,7 +97,7 @@ In breve:
 * `Settings`: Permette di spostarsi nella sezione di impostazioni del sistema.
 
 <div style="text-align: center; margin-top:30px;">
-    <img src="/assets/menu_principale.png" alt="Menu Principale">
+    <img src="./assets/menu_principale.png" alt="Menu Principale">
 </div>
 
 Anche queste sezioni verranno discusse in seguito.
@@ -109,7 +109,7 @@ Nella sezione connettività saranno presenti informazioni riguardanti la connett
 Per accedere a questa pagina è necessario cliccare sullo stato dell'imbarcazione (`Online` oppure `Offline`) presente nella Home in alto a destra della schermata.
 
 <div style="margin-top:30px;">
-    <img src="/assets/conn_screen.png" alt="Connectivity Screen" width ="250">
+    <img src="./assets/conn_screen.png" alt="Connectivity Screen" width ="250">
 </div>
 
 Come si può notare nel grafico è presente una scala di valori rappresentati da dei colori: 
@@ -138,9 +138,9 @@ Cliccando sull'icona per visualizzare tuti i dispositivi avremo una schermata sc
 
 
 <div style="text-align:center; margin-top: 30px;">
-    <img src="/assets/devices_1.png" alt="Devices1" width="250" style="display: inline-block;">
-    <img src="/assets/devices_2.png" alt="Devices2" width="250" style="display: inline-block; margin-left: 70px;">
-    <img src="/assets/devices_3.png" alt="Devices3" width="250" style="display: inline-block; margin-top: 20px;">
+    <img src="./assets/devices_1.png" alt="Devices1" width="250" style="display: inline-block;">
+    <img src="./assets/devices_2.png" alt="Devices2" width="250" style="display: inline-block; margin-left: 70px;">
+    <img src="./assets/devices_3.png" alt="Devices3" width="250" style="display: inline-block; margin-top: 20px;">
 </div>
 
 <div style="margin-top: 50px;"></div>
@@ -164,7 +164,7 @@ La schermata *Door* serve per monitorare lo stato delle porte, se essa siano ape
 `Verde` indica che la porta è chiusa, `Rosso` indica che la porta è aperta.
 
 <div style="margin-top:30px;">
-    <img src="/assets/door_screen.png" alt="Door Screen" width ="250">
+    <img src="./assets/door_screen.png" alt="Door Screen" width ="250">
 </div>
 
 
@@ -173,7 +173,7 @@ La schermata *Door* serve per monitorare lo stato delle porte, se essa siano ape
 La schermata *Tri-Sensor* serve per monitorare i 3 sensori: `Motion Sensor`, `Temperature` e `Illuminance`.
 
 <div style="margin-top:30px;">
-    <img src="/assets/trisensor_page.png" alt="Trisensor Screen" width ="250">
+    <img src="./assets/trisensor_page.png" alt="Trisensor Screen" width ="250">
 </div>
 
 * **Motion Sensor** = Percepisce i movimenti all'interno di un raggio d'azione.
@@ -191,7 +191,7 @@ La schermata *Smoke* serve per rilevare la presenza di fumo.
 Come per la *Door* anche i colori sono i medesimi di conseguenza `Verde` indica che non c'è presenza di fumo, `Rosso` indica presenza di fumo. 
 
 <div style="margin-top:30px;">
-    <img src="/assets/smoke_page.png" alt="Smoke Screen" width ="250">
+    <img src="./assets/smoke_page.png" alt="Smoke Screen" width ="250">
 </div>
 
 
@@ -200,7 +200,7 @@ Come per la *Door* anche i colori sono i medesimi di conseguenza `Verde` indica 
 Gli *Actuator* permettono di controllare lo stato delle luci all'interno dell'imbarcazione.
 
 <div style="margin-top:30px;">
-    <img src="/assets/actuator_page.png" alt="Actuator Screen" width ="250">
+    <img src="./assets/actuator_page.png" alt="Actuator Screen" width ="250">
 </div>
 
 L'immagine al centro che rappresenta una lampadina ci indica se la luce sia o meno spenta. 
@@ -215,7 +215,7 @@ La schermata *Siren* permette di controllare lo stato della sirena in caso stia 
 Anche qui i colori sono gli stessi per la door. 
 
 <div style="margin-top:30px;">
-    <img src="/assets/siren_page.png" alt="Siren Screen" width ="250">
+    <img src="./assets/siren_page.png" alt="Siren Screen" width ="250">
 </div>
 
 
@@ -224,8 +224,8 @@ Anche qui i colori sono gli stessi per la door.
 La schermata *Engine* permette di controllare i valori riguardanti il motore dell'imbarcazione.
 
 <div style="text-align:center; margin-top: 30px;">
-    <img src="/assets/engine_page1.png" alt="Engine1" width="250" style="display: inline-block;">
-    <img src="/assets/engine_page2.png" alt="Engine2" width="250" style="display: inline-block; margin-left: 70px;">
+    <img src="./assets/engine_page1.png" alt="Engine1" width="250" style="display: inline-block;">
+    <img src="./assets/engine_page2.png" alt="Engine2" width="250" style="display: inline-block; margin-left: 70px;">
 </div>
 
 Al suo interno sono presenti diversi valori:
@@ -243,8 +243,8 @@ Al suo interno sono presenti diversi valori:
 La schermata *Navigation* permette di controllare tutti i dati riguardanti la navigazione.
 
 <div style="text-align:center; margin-top: 30px;">
-    <img src="/assets/navigation1.png" alt="Navigation1" width="250" style="display: inline-block;">
-    <img src="/assets/navigation2.png" alt="Navigation2" width="250" style="display: inline-block; margin-left: 70px;">
+    <img src="./assets/navigation1.png" alt="Navigation1" width="250" style="display: inline-block;">
+    <img src="./assets/navigation2.png" alt="Navigation2" width="250" style="display: inline-block; margin-left: 70px;">
 </div>
 
 Come per Engine anche qui abbiamo diversi valori: 
@@ -262,8 +262,8 @@ Come per Engine anche qui abbiamo diversi valori:
 La schermata *Meteo* permette di monitorare le condizioni atmosferiche secondo dati nautici.
 
 <div style="text-align:center; margin-top: 30px;">
-    <img src="/assets/meteo1.png" alt="Meteo1" width="250" style="display: inline-block;">
-    <img src="/assets/meteo2.png" alt="Meteo2" width="250" style="display: inline-block; margin-left: 70px;">
+    <img src="./assets/meteo1.png" alt="Meteo1" width="250" style="display: inline-block;">
+    <img src="./assets/meteo2.png" alt="Meteo2" width="250" style="display: inline-block; margin-left: 70px;">
 </div>
 
 Anche qui avremo diversi valori a disposizione: 
@@ -280,7 +280,7 @@ Anche qui avremo diversi valori a disposizione:
 La schermata *Battery* permette di monitorare il voltaggio della batteria del motore.
 
 <div style="margin-top:30px;">
-    <img src="/assets/battery_page.png" alt="Battery Screen" width ="250">
+    <img src="./assets/battery_page.png" alt="Battery Screen" width ="250">
 </div>
 
 
@@ -297,14 +297,14 @@ Lo storico ci viene rappresentato in tre modi differenti:
 * Tabella con valori.
 
 <div style="text-align:center; margin-top: 30px;">
-    <img src="/assets/grafico_barre.png" alt="Grafico Barre" width="250" style="display: inline-block;">
-    <img src="/assets/grafico_linee.png" alt="Grafico Linee" width="250" style="display: inline-block; margin-left: 70px;">
+    <img src="./assets/grafico_barre.png" alt="Grafico Barre" width="250" style="display: inline-block;">
+    <img src="./assets/grafico_linee.png" alt="Grafico Linee" width="250" style="display: inline-block; margin-left: 70px;">
 </div>
 
 L'ultima rappresentazione ci viene mostrata nel momento in cui non abbiamo telemetrie negli ultimi 7 giorni. 
 
 <div style="text-align:center; margin-top:30px;">
-    <img src="/assets/tabella_valori.png" alt="Tabella Valori" width ="250">
+    <img src="./assets/tabella_valori.png" alt="Tabella Valori" width ="250">
 </div>
 
 Sopra al grafico o al messaggio che ci avvisa di non aver trovato dati recenti, vi sono delle indicazioni che riguardano il dispositivo, il range di giorni in cui recuperare i valori e il tempo di aggregazione. *Questi sono valori di default*
@@ -313,7 +313,7 @@ Sopra al grafico o al messaggio che ci avvisa di non aver trovato dati recenti, 
 Cliccando sul bottone in alto a destra *History Filter*, vi è la possibilità anche di impostare dei filtri per una migliore gestione di visualizzazione dei dati. 
 
 <div style=" margin-top:30px;">
-    <img src="/assets/filtro.png" alt="Filtro Valori" width ="200">
+    <img src="./assets/filtro.png" alt="Filtro Valori" width ="200">
 </div>
 
 Come si può vedere dall'immagine, è possibile in questo modo decidere il range di giorni e filtrare i dati per quel range, di default la modalità di aggregazione sarà *DAILY*. 
@@ -321,7 +321,7 @@ Come si può vedere dall'immagine, è possibile in questo modo decidere il range
 Spuntando la casella *Advanced Mode* avremo a disposizione dei filtri avanzati. 
 
 <div style=" margin-top:30px;">
-    <img src="/assets/filtro_advanced.png" alt="Filtro Avanzato" width ="200">
+    <img src="./assets/filtro_advanced.png" alt="Filtro Avanzato" width ="200">
 </div>
 
 In questo modo potremmo modificare alcuni dati tra cui: Retrieved Data, Aggregation Time, Aggregation Function. 
@@ -346,7 +346,7 @@ Dalla dashboard possiamo capire quale dispositivo ha fatto scattare un allarme i
 
 
 <div style="margin-top:30px;">
-    <img src="/assets/alarm_screen.png" alt="Alarm Screen" width ="200">
+    <img src="./assets/alarm_screen.png" alt="Alarm Screen" width ="200">
 </div>
 
 Vi è la possibilità cliccando sull'allarme di andare a visualizzare il device responsabile per i dettagli.
@@ -366,7 +366,7 @@ Mentre l'app è aperta verrà mostrata una notifica pop-up con le informazioni d
 Nella modale saranno presenti due `pulsanti`, uno per accedere al dettaglio del sensore collegato all’evento allarmante e un pulsante che consente di armare o disarmare.
 
 <div style="margin-top:30px;">
-    <img src="/assets/notifica_alarm.png" alt="Notifica Screen" width ="250">
+    <img src="./assets/notifica_alarm.png" alt="Notifica Screen" width ="250">
 </div>
 
 In base alla tipologia dell'errore la modale avrà delle funzionalità differenti. 
@@ -383,7 +383,7 @@ Nel caso di allarme `Security` apparirà anche la possibilità di eseguire lo sb
 All'interno del `Menu Principale` è possibile, cliccando sull'apposita icona (rappresentata da una **Mappa**), il tracking in tempo reale su una mappa della propria imbarcazione.
 
 <div style="text-align:center; margin-top:30px;">
-    <img src="/assets/mappa.png" alt="Mappa" width ="250">
+    <img src="./assets/mappa.png" alt="Mappa" width ="250">
 </div>
 
 Cliccando sull'icona della propria imbarcazione sarà possibile visualizzare alcuni dati come la Latitudine e la Longitudine del luogo in cui si trova in quel momento l'imbarcazione.
@@ -395,7 +395,7 @@ In questa sezione abbiamo 3 funzionalità fondamentali, tutte corrisposte da un 
 Cliccando sull'apposito pulsante *Tracking History* è possibile visionare i movimenti dell’imbarcazione in un determinato giorno selezionabile da un calendario.
 
 <div style="margin-top:30px;">
-    <img src="/assets/tracking_history.png" alt="Tracking History" width ="250">
+    <img src="./assets/tracking_history.png" alt="Tracking History" width ="250">
 </div>
 
 
@@ -405,8 +405,8 @@ Cliccando sull'apposito pulsante *Tracking History* è possibile visionare i mov
 Cliccando sull'apposito pulsante *Virtual Anchor* è possibile inserire l’ancora virtuale.
 
 <div style="text-align:center; margin-top: 30px;">
-    <img src="/assets/virtual_anchor.png" alt="Virtual Anchor1" width="250" style="display: inline-block;">
-    <img src="/assets/virtual_anchor2.png" alt="Virtual Anchor2" width="250" style="display: inline-block; margin-left: 20px;">
+    <img src="./assets/virtual_anchor.png" alt="Virtual Anchor1" width="250" style="display: inline-block;">
+    <img src="./assets/virtual_anchor2.png" alt="Virtual Anchor2" width="250" style="display: inline-block; margin-left: 20px;">
 </div>
 
 Se attiva crea una circonferenza attorno all’imbarcazione, quando l’imbarcazione si sposta più del raggio selezionato dalla circonferenza scatterà un allarme.
@@ -416,7 +416,7 @@ Cliccando sul bottone *info* comprarirà un pop-up.
 All'interno vi sarà descritta una legenda che spiega il funzionamento della virtual Anchor.
 
 <div style="margin-top:30px;">
-    <img src="/assets/legenda.png" alt="Legenda" width ="250">
+    <img src="./assets/legenda.png" alt="Legenda" width ="250">
 </div>
 
 
@@ -425,7 +425,7 @@ All'interno vi sarà descritta una legenda che spiega il funzionamento della vir
 In questa sezione sono contenute tutte le informazioni relative alle condizioni meteo orarie e del dettaglio marino del servizio [DTN](https://devportal.dtn.com/catalog).
 
 <div style="margin-top:30px;">
-    <img src="/assets/weather.png" alt="Weather" width ="250">
+    <img src="./assets/weather.png" alt="Weather" width ="250">
 </div>
 
 Di seguito un elenco di tutte i dati che possiamo trovare nella pagina:
@@ -446,7 +446,7 @@ Di seguito un elenco di tutte i dati che possiamo trovare nella pagina:
 L'ultimo bottone presente all'interno del `Menu Principale` rappresentato da un icona **Ingranaggio** è quello per i *Settings*.
 
 <div style="margin-top:30px;">
-    <img src="/assets/settings.png" alt="Settings" width ="250">
+    <img src="./assets/settings.png" alt="Settings" width ="250">
 </div>
 
 Cliccato l'apposito pulsante si aprirà un menu.

@@ -16,7 +16,7 @@ plugins:
       add_to_navigation: true
       print_page_title: 'Print'
       add_print_site_banner: true
-      print_site_banner_template: "docs/assets/templates/custom_banner.tpl"
+      print_site_banner_template: "./docs/assets/templates/custom_banner.tpl"
       # Table of contents
       add_table_of_contents: true
       toc_title: 'Table of Contents'
@@ -26,7 +26,7 @@ plugins:
       enumerate_headings: true
       enumerate_figures: true
       add_cover_page: true
-      cover_page_template: "docs/assets/templates/cover.tpl"
+      cover_page_template: "./docs/assets/templates/cover.tpl"
       path_to_pdf: ""
       include_css: true
       enabled: true
