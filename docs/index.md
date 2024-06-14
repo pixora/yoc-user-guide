@@ -25,7 +25,7 @@ In questa schermata l'utente customer avrà la possibilità di visualizzare i pr
 Nel caso fosse presente un solo vessel per lo specifico customer si procederà alla selezione automatica del vessel subito dopo la login page. 
 
 <div style="margin-top: 30px;">
-    <img src="/assets/vessel_selection.png" alt="Vessel Screen">
+    <img src="/assets/select_vessel.png" alt="Vessel Screen" width="250">
 </div>
 
 
@@ -58,7 +58,9 @@ In caso l'imbarcazione sia offline lo sfondo alle spalle dell'immagine risulter�
 
 Sotto l'immagine dell'inbarcazione è presente un bottone che ci permette di cambiare lo stato dell'imbarcazione da `Armed` a `Disarmed`. Questo abilita il sistema di monitoraggio e sicurezza perimetrale. 
 
-Cliccando per armare ci comparirà un pop-up e ci verrà richiesto il pin di sicurezza inoltre comparirà anche un avviso in caso il device si trova in stato `Triggered` (ad esempio se una porta è in stato open).
+Cliccando per armare ci comparirà un pop-up e ci verrà richiesto il **PIN** di sicurezza inoltre comparirà anche un avviso in caso il device si trova in stato `Triggered` (ad esempio se una porta è in stato open).
+
+*Inizialmente ci sarà un PIN di default che verrà dato al cliente, per modificare* **[Vedi Change Pin](#4-change-pin)**
 
 
 <div style="margin-top: 30px;">
@@ -72,7 +74,7 @@ Cliccando per armare ci comparirà un pop-up e ci verrà richiesto il pin di sic
 
 Al di sotto del bottone troveremo una piccola sezione `Boat Status`.
 
-Questa sezione ha la funzione di menu rapido. In questo menu è possibile visionare le informazioni relative ai Device: `Control Panel, Environment, Action, Security, Safety` e infine è possibile visionare le `Telecamere` di sicurezza presenti sull’imbarcazione. **(Vedi Telecamere)**  
+Questa sezione ha la funzione di menu rapido. In questo menu è possibile visionare le informazioni relative ai Device: `Control Panel, Environment, Action, Security, Safety` e infine è possibile visionare le `Telecamere` di sicurezza presenti sull’imbarcazione. **[Vedi TLC Screen](#tlc-screen)** 
 
 Ogni pulsante del menu rendirizzerà l'utente verso una sezione specifica di cui tratteremo in seguito.
 
@@ -149,7 +151,7 @@ Ogni card che troviamo in questa schermata corrisponde ad un device, ogni device
 
 Nella pagina di dettaglio del sensore verranno rappresentati in lista tutte le metriche associate ad un dato sensore. 
 
-Accanto a ciascuna telemetria un pulsante consentirà di accedere alla sezione *History* per la visualizzazione tutte le telemetrie per una più completa ricerca. **(Vedi 10. History Page)**.
+Accanto a ciascuna telemetria un pulsante consentirà di accedere alla sezione *History* per la visualizzazione tutte le telemetrie per una più completa ricerca. **[(Vedi History Page)](#10-history-page)**.
 
 Infine un **carosello** a pié di pagina serve per spostarsi velocemente tra dispositivi della stessa categoria.
 
@@ -455,6 +457,91 @@ In questa pagina l'utente avrà accesso a diverse opzioni relative alle impostaz
 
 ### 1. Profile Page
 
+In questa pagina l’utente potrà visualizzare le proprie informazioni quali `tenant`, `customer`, `username`, `email`, `nome` e `cognome` dell’account. 
+
+Avrà la possibilità di poter cambiare la propria immagine di profilo cliccando sull'apposito bottone.
+
+<div style="margin-top: 30px;">
+    <img src="/assets/profile_page.png" alt="Profile Page" width="250" style="display: inline-block;">
+    <img src="/assets/profile_photo.png" alt="Profile Photo" width="250" style="display: inline-block; margin-left: 20px;">
+</div>
+
+Si aprirà di conseguenza un menu dove sarà possibile cambiare la propria foto profilo scegliendo nell'archivio del proprio dispositivio oppure scattare una foto in quel preciso istante ed utilizzarla.
 
 
+### 2. Assistance Screen
 
+In questa pagina l’utente potrà leggere le `F.A.Q` (domande frequenti), e richiedere assistenza tramite le apposite informazioni di contatto. 
+
+Sarà possibile aprire un Tickets di supporto cliccando sul bottone apposito in alto a sinistra.
+
+<div style="margin-top:30px;">
+    <img src="/assets/assistance_screen.png" alt="Settings" width ="250">
+</div>
+
+Le FAQ potranno essere ridimensionate in modo da non visualizzare quelle di non interesse.
+
+### 3. Settings Page
+
+In questa pagina l’utente potrà visualizzare tutte le impostazioni dell’app: vibrazione, suoneria e inoltre potrà personalizzare l’immagine della propria barca.
+
+<div style="text-align:center; margin-top:30px;">
+    <img src="/assets/settings_page.png" alt="Settings" width ="250">
+    <img src="/assets/ship_photo.png" alt="Ship Photo" width="250" style="display: inline-block; margin-left: 20px;">
+</div>
+
+Cliccando sul pulsante al di sotto dell'immagine dell'imbarcazione si aprirà un menu dove sarà possibile cambiare la propria foto profilo scegliendo nell'archivio del proprio dispositivio oppure scattare una foto in quel preciso istante ed utilizzarla.
+
+
+### 4. Change Pin
+
+Cliccando su *Change Pin* si aprirà la schermata dove sarà possibile cambiare il pin per poter armare e disarmare l'imbarcazione.
+
+Inizialmente viene dato un pin di *default* che è consigliabile cambiare il prima possibile e crearne uno personalizzato per una maggiore sicurezza.
+
+<div style="text-align:center; margin-top:30px;">
+    <img src="/assets/change_pin.png" alt="Change Pin" width ="250">
+</div>
+
+### 5. Change Boat
+
+Cliccando sul bottone *Change Boat* si verrà riportati alla sezione dove è possibile selezionare un'altra imbarcazione tra quelle in possesso.
+
+
+### 6. Logout
+
+Cliccando su Logout l'utente verrà riportato alla schermata di Login dove potrà inserire di nuovo le credenziali di accesso. 
+
+
+## TLC Screen
+
+All'interno del `Menu Rapido` è possibile, cliccando sull'apposita icona (rappresentata da un **Media Player**), visualizzare una lista di tutte le proprie telecamere.
+
+<div style="margin-top:30px;">
+    <img src="/assets/tlc.png" alt="Telecamere" width ="250">
+</div>
+
+Ciò che l'utente vedrà in questa schermata sarà l'ultimo `Snapshot` effettuato da ogni telecamera.
+
+Cliccando su una delle telecamere a disposizione si verrà reindirizzati nella schermata di dettaglio di quella specifica telecamera.
+
+<div style="margin-top:30px;">
+    <img src="/assets/single_tlc.png" alt="Change Pin" width ="250">
+</div>
+
+La schermata di presenterà con un video `live` della telecamera selezionata, con possibilità di azionare il *Fullscreen*, facendo click sul pulsante a destra, o mettere in *Pausa* e poi riprendere dall'istante attuale.
+
+Al di sotto della diretta, tramite un calendario è possibile controllare tutte le registrazioni catturate dagli allarmi scattati per quella specifica data. *Il calendario sarà scrollabile lateralmente per cambiare il mese di selezione*.
+
+I giorni selezionabili sul calendario avranno diversi colori: 
+
+* `Azzurro` = Giorno attuale.
+* `Rosso` = Giorno in cui sono presenti delle registrazioni.
+* `Grigio` = Giorno in cui non sono presenti alcune registrazioni.
+
+Cliccando su un giorno in cui è presente un `evento`, Comparirà un elenco di allarmi corrispondenti al device incriminato. Cliccando sull'evento, si procede all'avvio del `Playback` della registrazione per il canale stream tlc corrente. 
+
+In questo modo la dicitura evidenziata in verde ***Live*** presente in alto a destra verrà sostituita da ***VOD*** evidenziato in giallo, per indicare che il video non è più in diretta bensì si tratta di una registrazione.
+
+Un pulsante ***X*** affianco allo stato ci permetterà di ritornare a visualizzare la live della telecamera.
+ 
