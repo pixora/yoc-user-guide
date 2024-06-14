@@ -1,4 +1,4 @@
-# Setup
+# Getting Started
 Visit the landing [website](https://yachtoncloud.it/).
 
 ## Download from the store
@@ -10,9 +10,13 @@ Visit the landing [website](https://yachtoncloud.it/).
 
 ## Registration
 
-To register, it is necessary to implement the purchase phase of the chosen package. 
+To register, it is necessary to implement the purchase of a production of *Yatch on Cloud*
 
-During the stage, credentials will be provided to the user to log in and use all app's feature. 
+To purchase contact us now: 
+
+[info@yachtoncloud.it](mailto:info@yachtoncloud.it)
+
+
 
 
 
