@@ -27,7 +27,7 @@ In questa schermata l'utente customer avrà la possibilità di visualizzare i pr
 Nel caso fosse presente un solo vessel per lo specifico customer si procederà alla selezione automatica del vessel subito dopo la login page. 
 
 <div style="margin-top: 30px;">
-    <img src="/assets/select_vessel.png" alt="Vessel Screen" width="250">
+    <img src="./assets/select_vessel.png" alt="Vessel Screen" width="250">
 </div>
 
 
@@ -42,7 +42,7 @@ Lo sfondo `verde` o `grigio` indicherà rispettivamente una imbarcazione online 
     <img src="./assets/home_page.png" alt="Home Screen" width="250">
 </div>
 
-<div style="margin-bottom: 50px;"></div>
+<div style="margin-bottom: 30px;"></div>
 
 ### 1. Boat Info
 
@@ -104,7 +104,9 @@ In breve:
     <img src="./assets/menu_principale.png" alt="Menu Principale">
 </div>
 
-Anche queste sezioni verranno discusse in seguito.
+<div style="margin-bottom: 40px;"></div>
+
+*Queste sezioni verranno discusse in seguito in dettaglio.*
 
 
 ## Connectivity Screen
@@ -464,8 +466,8 @@ In questa pagina l’utente potrà visualizzare le proprie informazioni quali `t
 Avrà la possibilità di poter cambiare la propria immagine di profilo cliccando sull'apposito bottone.
 
 <div style="margin-top: 30px;">
-    <img src="/assets/profile_page.png" alt="Profile Page" width="250" style="display: inline-block;">
-    <img src="/assets/profile_photo.png" alt="Profile Photo" width="250" style="display: inline-block; margin-left: 20px;">
+    <img src="./assets/profile_page.png" alt="Profile Page" width="250" style="display: inline-block;">
+    <img src="./assets/profile_photo.png" alt="Profile Photo" width="250" style="display: inline-block; margin-left: 20px;">
 </div>
 
 Si aprirà di conseguenza un menu dove sarà possibile cambiare la propria foto profilo scegliendo nell'archivio del proprio dispositivio oppure scattare una foto in quel preciso istante ed utilizzarla.
@@ -478,7 +480,7 @@ In questa pagina l’utente potrà leggere le `F.A.Q` (domande frequenti), e ric
 Sarà possibile aprire un Tickets di supporto cliccando sul bottone apposito in alto a sinistra.
 
 <div style="margin-top:30px;">
-    <img src="/assets/assistance_screen.png" alt="Settings" width ="250">
+    <img src="./assets/assistance_screen.png" alt="Settings" width ="250">
 </div>
 
 Le FAQ potranno essere ridimensionate in modo da non visualizzare quelle di non interesse.
@@ -488,8 +490,8 @@ Le FAQ potranno essere ridimensionate in modo da non visualizzare quelle di non 
 In questa pagina l’utente potrà visualizzare tutte le impostazioni dell’app: vibrazione, suoneria e inoltre potrà personalizzare l’immagine della propria barca.
 
 <div style="text-align:center; margin-top:30px;">
-    <img src="/assets/settings_page.png" alt="Settings" width ="250">
-    <img src="/assets/ship_photo.png" alt="Ship Photo" width="250" style="display: inline-block; margin-left: 20px;">
+    <img src="./assets/settings_page.png" alt="Settings" width ="250">
+    <img src="./assets/ship_photo.png" alt="Ship Photo" width="250" style="display: inline-block; margin-left: 20px;">
 </div>
 
 Cliccando sul pulsante al di sotto dell'immagine dell'imbarcazione si aprirà un menu dove sarà possibile cambiare la propria foto profilo scegliendo nell'archivio del proprio dispositivio oppure scattare una foto in quel preciso istante ed utilizzarla.
@@ -502,7 +504,7 @@ Cliccando su *Change Pin* si aprirà la schermata dove sarà possibile cambiare 
 Inizialmente viene dato un pin di *default* che è consigliabile cambiare il prima possibile e crearne uno personalizzato per una maggiore sicurezza.
 
 <div style="text-align:center; margin-top:30px;">
-    <img src="/assets/change_pin.png" alt="Change Pin" width ="250">
+    <img src="./assets/change_pin.png" alt="Change Pin" width ="250">
 </div>
 
 ### 5. Change Boat
@@ -520,7 +522,7 @@ Cliccando su Logout l'utente verrà riportato alla schermata di Login dove potr�
 All'interno del `Menu Rapido` è possibile, cliccando sull'apposita icona (rappresentata da un **Media Player**), visualizzare una lista di tutte le proprie telecamere.
 
 <div style="margin-top:30px;">
-    <img src="/assets/tlc.png" alt="Telecamere" width ="250">
+    <img src="./assets/tlc.png" alt="Telecamere" width ="250">
 </div>
 
 Ciò che l'utente vedrà in questa schermata sarà l'ultimo `Snapshot` effettuato da ogni telecamera.
@@ -528,7 +530,7 @@ Ciò che l'utente vedrà in questa schermata sarà l'ultimo `Snapshot` effettuat
 Cliccando su una delle telecamere a disposizione si verrà reindirizzati nella schermata di dettaglio di quella specifica telecamera.
 
 <div style="margin-top:30px;">
-    <img src="/assets/single_tlc.png" alt="Change Pin" width ="250">
+    <img src="./assets/single_tlc.png" alt="Change Pin" width ="250">
 </div>
 
 La schermata di presenterà con un video `live` della telecamera selezionata, con possibilità di azionare il *Fullscreen*, facendo click sul pulsante a destra, o mettere in *Pausa* e poi riprendere dall'istante attuale.
