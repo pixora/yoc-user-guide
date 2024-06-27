@@ -224,13 +224,19 @@ Come per la *Door* anche i colori sono i medesimi di conseguenza `Verde` indica 
 
 Gli *Actuator* permettono di controllare lo stato delle luci all'interno dell'imbarcazione.
 
-<div style="margin-top:30px;">
+<div style="text-align:center; margin-top:30px;">
     <img src="../assets/actuator_page.png" alt="Actuator Screen" width ="250">
+    <img src="../assets/b_actuator_screen.png" alt="BActuator Screen" width="245" style="display: inline-block; margin-left: 70px;">
 </div>
 
 L'immagine al centro che rappresenta una lampadina ci indica se la luce sia o meno spenta. 
 
 `Bianca` indica che la luce è spenta, mentre `Gialla` indica che la luce è accesa. 
+
+Toccando l'icona, questa cambierà colore ed effettivamente le luci all'interno dell'imbarcazione si comporteranno di conseguenza.
+
+
+Il valore `ON` e `OFF` indicato sotto alle diciture *Line*, è un ulteriore avviso sull'attuale comportamento delle luci.
 
 
 ### 5. Siren Page
