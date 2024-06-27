@@ -10,14 +10,6 @@ Visit the landing [website](https://yachtoncloud.it/).
 
 ## Registration
 
-To register, it is necessary to implement the purchase of a production of *Yatch on Cloud*
-
-To purchase contact us now: 
-
+User registration for access to YoC is carried out following the purchase and installation of the YoC kit. Buy now by contacting:
 [info@yachtoncloud.it](mailto:info@yachtoncloud.it)
-
-
-
-
-
-
+If you have problems logging in, contact the support channel on [developers@pixora.it](mailto:developers@pixora.it).
