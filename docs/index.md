@@ -8,8 +8,6 @@
 
 - [Vessel Dashboard](Mobile_App.md#vessel-dashboard)
 
-- [Connectivity Screen](Mobile_App.md#connectivity-screen)
-
 - [Dashboard Device](Mobile_App.md#dashboard-devices)
 
 - [Alarms Dashboard](Mobile_App.md#alarms-dashboard)

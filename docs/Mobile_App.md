@@ -22,16 +22,17 @@ In caso di credenziali corrette l'utente passerà alla prossima schermata.
 
 ## Vessel Selection Page
 
-In questa schermata l'utente customer avrà la possibilità di visualizzare i propri `vessel` registrati all'interno del sistema.  
+In questa schermata l'utente avrà la possibilità di visualizzare i propri `Vessel`, registrati all'interno del sistema.
 
-Nel caso fosse presente un solo vessel per lo specifico customer si procederà alla selezione automatica del vessel subito dopo la login page. 
+Se per un determinato customer è presente un solo vessel, questo verrà selezionato automaticamente subito dopo la schermata di login. Nel caso in cui siano disponibili più customer, l’utente potrà scorrerli e selezionare il vessel desiderato.
 
-<div style="margin-top: 30px;">
+<div style="text-align: center; margin-top:30px;">
     <img src="../assets/select_vessel.png" alt="Vessel Screen" width="250">
+    <img src="../assets/select_vessel2.png" alt="Vessel Screen 2" width="250" style="display: inline-block; margin-left: 30px;">
 </div>
 
 
-Lo sfondo `verde` o `grigio` indicherà rispettivamente una imbarcazione online (raggiungibile) o offline (non raggiungibile). 
+Lo sfondo `verde` o `grigio` indicherà rispettivamente un'imbarcazione online (raggiungibile) o offline (non raggiungibile). 
 
 
 ## Vessel Dashboard
@@ -72,39 +73,66 @@ In caso sia presente un evento allarmante riguardante l'imbarcazione lo sfondo a
     <img src="../assets/red_ship.png" alt="Alarmed Ship" width="260" style="display: inline-block; margin-left: 30px;">
 </div>
 
-Sotto l'immagine dell'inbarcazione è presente il bottone che ci permette di cambiare lo stato dell'imbarcazione da `Armed` a `Disarmed`. Questo abilita il sistema di monitoraggio e sicurezza perimetrale. 
-
-<div style="text-align: center; margin-top:30px;">
-    <img src="../assets/armed_disarmed.png" alt="Armed Disarmed" width="250">
-</div>
-
-Cliccando per armare ci comparirà un pop-up e ci verrà richiesto il **PIN** di sicurezza inoltre comparirà anche un avviso in caso il device si trova in stato `Triggered` (ad esempio se una porta è in stato open).
-
-*Inizialmente ci sarà un PIN di default che verrà dato al cliente, per modificare* **[Vedi 4. Change Pin](#4-change-pin)**
-
-
-<div style="margin-top: 30px;">
-    <img src="../assets/Armed_pin.png" alt="Armed" width="300" style="display: inline-block;">
-    <img src="../assets/triggere_pop.png" alt="Triggered" width="300" style="display: inline-block; margin-left: 70px;">
-</div>
-
 <div style="margin-bottom: 50px;"></div>
 
 ### 2. Menu Rapido
 
 Al di sotto del bottone troveremo una piccola sezione `Boat Status`.
 
-Questa sezione ha la funzione di menu rapido. In questo menu è possibile visionare le informazioni relative ai Device: `Control Panel, Environment, Action, Security, Safety` e infine è possibile visionare le `Telecamere` di sicurezza presenti sull’imbarcazione. **[Vedi TLC Screen](#tlc-screen)** 
+Questa sezione ha la funzione di menu' rapido, in cui è possibile visionare le informazioni relative ai Device: `Control Panel, Environment, Action, Security, Safety` e infine è possibile visionare le `Telecamere` di sicurezza presenti sull’imbarcazione. **[Vedi TLC Screen](#tlc-screen)** 
 
 Ogni pulsante del menu rendirizzerà l'utente verso una sezione specifica di cui tratteremo in seguito.
 
-Quando ci sarà un nuovo allarme sul pulssante `Security` apparirà un pallino rosso sull'icona.
-
+Quando ci sarà un nuovo allarme sul pulsante `Security` apparirà un pallino rosso sull'icona.
 
 <div style="text-align: center; margin-top:30px;">
     <img src="../assets/menu_rapido.png" alt="Menu Rapido" width="350">
 </div>
 
+All'interno di questa sezione troviamo anche altre quattro funzionalità:
+
+1 - Il pulsante che ci permette di cambiare lo stato dell'imbarcazione da `Armed` a `Disarmed`. Questo abilita il sistema di monitoraggio e sicurezza perimetrale.
+Cliccando, per armare, ci comparirà un pop-up e ci verrà richiesto il **PIN** di sicurezza. Inoltre comparirà un avviso in caso il device si trovi in stato `Triggered` (ad esempio se una porta è in stato open). *Inizialmente ci sarà un PIN di default che verrà dato al cliente, per modificare* **[Vedi 4. Change Pin](#4-change-pin)**
+
+<div style="margin-top: 30px;">
+    <img src="../assets/armed_pin.png" alt="Armed" width="300" style="display: inline-block;">
+    <img src="../assets/triggered_pop.png" alt="Triggered" width="300" style="display: inline-block; margin-left: 70px;">
+</div>
+
+2 - Il pulsante `Connectivity` che consente di verificare se il dispositivo pixora-edge è connesso a Internet e, in caso positivo, di monitorare la qualità della connessione.
+
+<div>
+    <img src="../assets/connectivity_screen.png" alt="Home Screen" width="250">
+</div>
+
+Come si può notare nel grafico è presente una scala di valori rappresentati da dei colori: 
+
+* `Green` = Good.
+* `Yellow` = Poor.
+* `Red` = Bad.
+
+In genere il valore minimo indica che non vi è alcun segnale.
+
+Lo stato ci indica lo stato di connessione globale:
+
+* Se almeno un valore è rosso allora lo stato è `NOCONN`. 
+
+* Se almeno un valore è giallo allora lo stato è `POOR`.
+
+* Se almeno un valore è verde allora lo stato è `GOOD`.
+
+3 - Il pulsante `Routes` che mostra lo storico delle rotte percorse dall’imbarcazione. Selezionando una rotta specifica è possibile aprirne il dettaglio completo.
+
+<div style="margin-top: 30px;">
+    <img src="../assets/route_screen.png" alt="Route Screen" width="250" style="display: inline-block;">
+    <img src="../assets/route_detail_screen.png" alt="Route Detail Screen" width="250" style="display: inline-block; margin-left: 70px;">
+</div>
+
+4 - Il pulsante `SOS`, da utilizzare esclusivamente in caso di emergenza, che consente di contattare direttamente i soccorsi selezionando il contatto desiderato.
+
+<div>
+    <img src="../assets/sos_screen.png" alt="Home Screen" width="300">
+</div>
 
 ### 3. Menu Principale
 
@@ -126,45 +154,15 @@ In breve:
 
 *Queste sezioni verranno discusse in seguito in dettaglio.*
 
-
-## Connectivity Screen
-Nella sezione connettività saranno presenti informazioni riguardanti la connettività LTE. 
-
-Per accedere a questa pagina è necessario cliccare sullo stato dell'imbarcazione (`Online` oppure `Offline`) presente nella Home in alto a destra della schermata.
-
-<div style="margin-top:30px;">
-    <img src="../assets/conn_screen.png" alt="Connectivity Screen" width ="250">
-</div>
-
-Come si può notare nel grafico è presente una scala di valori rappresentati da dei colori: 
-
-* `Green` = Good.
-* `Yellow` = Poor.
-* `Red` = Bad.
-
-In genere il valore minimo indica che non vi è alcun segnale.
-
-<div style="margin-top: 50px;"></div>
-
-Lo stato ci indica lo stato di connessione globale:
-
-* Se almeno un valore è rosso allora lo stato è `NOCONN`. 
-
-* Se almeno un valore è giallo allora lo stato è `POOR`.
-
-* Se almeno un valore è verde allora lo stato è `GOOD`.
-
 ## Dashboard Devices
 
 Abbiamo due modi per poter visualizzare i dispositivi disponibili per la nostra imbarcazione: utilizzare il `Menu Rapido` per andare ad analizzare la macrocategoria di dispositivi a cui siamo interessati, oppure utilizzare il `Menu Principale` e cliccare sul pulsante "Devices" (raffigurato da un icona apposita) in questo modo avremo una schermata con tutti i dispositivi.
 
 Cliccando sull'icona per visualizzare tuti i dispositivi avremo una schermata scorrevole.
 
-
 <div style="text-align:center; margin-top: 30px;">
     <img src="../assets/devices_1.png" alt="Devices1" width="250" style="display: inline-block;">
     <img src="../assets/devices_2.png" alt="Devices2" width="250" style="display: inline-block; margin-left: 70px;">
-    <img src="../assets/devices_3.png" alt="Devices3" width="250" style="display: inline-block; margin-top: 20px;">
 </div>
 
 <div style="margin-top: 50px;"></div>
@@ -225,18 +223,17 @@ Come per la *Door* anche i colori sono i medesimi di conseguenza `Verde` indica 
 Gli *Actuator* permettono di controllare lo stato delle luci all'interno dell'imbarcazione.
 
 <div style="text-align:center; margin-top:30px;">
-    <img src="../assets/actuator_page.png" alt="Actuator Screen" width ="250">
-    <img src="../assets/b_actuator_screen.png" alt="BActuator Screen" width="245" style="display: inline-block; margin-left: 70px;">
+    <img src="../assets/b_actuator_screen.png" alt="RGBA Lines Actuator Screen" width ="250">
+    <img src="../assets/rgba_lines_actuator_screen.png" alt="BActuator Screen" width="250" style="display: inline-block; margin-left: 70px;">
 </div>
 
-L'immagine al centro che rappresenta una lampadina ci indica se la luce sia o meno spenta. 
+Gli switch indicano se la luce sia o meno spenta.
 
-`Bianca` indica che la luce è spenta, mentre `Gialla` indica che la luce è accesa. 
+`Bianco` indica che la luce è spenta, mentre `Giallo` indica che la luce è accesa. 
 
-Toccando l'icona, questa cambierà colore ed effettivamente le luci all'interno dell'imbarcazione si comporteranno di conseguenza.
+Azionando lo switch, questo cambierà colore ed effettivamente le luci all'interno dell'imbarcazione si comporteranno di conseguenza.
 
-
-Il valore `ON` e `OFF` indicato sotto alle diciture *Line*, è un ulteriore avviso sull'attuale comportamento delle luci.
+Il valore `ON` e `OFF` indicato sotto alle diciture *Line*, è un ulteriore avviso sull'attuale stato delle luci.
 
 
 ### 5. Siren Page
@@ -308,7 +305,7 @@ Anche qui avremo diversi valori a disposizione:
 
 ### 9. Battery Page
 
-La schermata *Battery* permette di monitorare il voltaggio della batteria del motore.
+La schermata *Battery* consente di monitorare in tempo reale i valori della batteria del motore.
 
 <div style="margin-top:30px;">
     <img src="../assets/battery_page.png" alt="Battery Screen" width ="250">
@@ -371,7 +368,7 @@ Inoltre dove è possibile, in caso di più valori in un singolo device, è possi
 
 ## Alarms Dashboard
 
-All'interno del `Menu Principale` è possibile, cliccando sull'apposita icona (rappresentata da un **orologio**), visualizzare un elenco degli ultimi allarmi scattati.
+All'interno del `Menu Principale`, cliccando sull'apposita icona (rappresentata da una **sveglia**), è possibile visualizzare un elenco degli ultimi allarmi scattati.
 
 Dalla dashboard possiamo capire quale dispositivo ha fatto scattare un allarme indicando data e orario. 
 
@@ -411,17 +408,29 @@ Nel caso di allarme `Security` apparirà anche la possibilità di eseguire lo sb
 
 ## Tracking Page
 
-All'interno del `Menu Principale` è possibile, cliccando sull'apposita icona (rappresentata da una **Mappa**), il tracking in tempo reale su una mappa della propria imbarcazione.
+All'interno del `Menu Principale`, cliccando sull'apposita icona (rappresentata da una **Mappa**), è possibile attivare il tracking in tempo reale della propria imbarcazione.
 
-<div style="text-align:center; margin-top:30px;">
-    <img src="../assets/mappa.png" alt="Mappa" width ="250">
+<div style="text-align:center; margin-top: 30px;">
+    <img src="../assets/mappa.png" alt="Mappa" width="250" style="display: inline-block;">
+    <img src="../assets/mappa2.png" alt="Mappa2" width="250" style="display: inline-block; margin-left: 70px;">
 </div>
 
 Cliccando sull'icona della propria imbarcazione sarà possibile visualizzare alcuni dati come la Latitudine e la Longitudine del luogo in cui si trova in quel momento l'imbarcazione.
 
-In questa sezione abbiamo 3 funzionalità fondamentali, tutte corrisposte da un apposito pulsante e che descriveremo in dettaglio.
+In questa sezione abbiamo diverse funzionalità, tutte corrisposte da un apposito pulsante e che descriveremo nel dettaglio.
 
-### 1. Tracking History
+### 1. Virtual Anchor
+
+Cliccando sul pulsante *Virtual Anchor* è possibile attivare l’ancora virtuale. Nella relativa schermata è inoltre disponibile una legenda che ne illustra il funzionamento.
+
+<div style="text-align:center; margin-top: 30px;">
+    <img src="../assets/virtual_anchor.png" alt="Virtual Anchor1" width="250" style="display: inline-block;">
+    <img src="../assets/virtual_anchor2.png" alt="Virtual Anchor2" width="250" style="display: inline-block; margin-left: 20px;">
+</div>
+
+Se attiva, crea una circonferenza attorno all’imbarcazione e quando l’imbarcazione si sposta più del raggio selezionato dalla circonferenza scatterà un allarme.
+
+### 2. Tracking History
 
 Cliccando sull'apposito pulsante *Tracking History* è possibile visionare i movimenti dell’imbarcazione in un determinato giorno selezionabile da un calendario.
 
@@ -429,34 +438,40 @@ Cliccando sull'apposito pulsante *Tracking History* è possibile visionare i mov
     <img src="../assets/tracking_history.png" alt="Tracking History" width ="250">
 </div>
 
+### 3. Layer
 
+Cliccando sul pulsante *Layer* è possibile selezionare il livello di informazioni da visualizzare sulla mappa. I layer disponibili sono:
 
-### 2. Virtual Anchor
+* `Default`: Vista standard della mappa.
+* `Wind Speed`: Velocità del vento in tempo reale.
+* `Wind Symbol`: Direzione e intensità del vento rappresentate da simboli.
+* `Temperature`: Temperatura dell’aria.
+* `Sea Surface Temperature`: Temperatura superficiale del mare.
+* `Visibility`: Livello di visibilità stimata.
+* `Mean Wave Direction`: Direzione media delle onde.
+* `Significant Wave Height`: Altezza significativa delle onde.
+* `Wind Waves`: Altezza delle onde generate dal vento.
+* `Wind Wave Directions`: Direzione delle onde generate dal vento.
 
-Cliccando sull'apposito pulsante *Virtual Anchor* è possibile inserire l’ancora virtuale.
-
-<div style="text-align:center; margin-top: 30px;">
-    <img src="../assets/virtual_anchor.png" alt="Virtual Anchor1" width="250" style="display: inline-block;">
-    <img src="../assets/virtual_anchor2.png" alt="Virtual Anchor2" width="240" style="display: inline-block; margin-left: 20px;">
+<div>
+    <img src="../assets/layer1.png" alt="Layer1" width="220" style="display: inline-block;">
+    <img src="../assets/layer2.png" alt="Layer2" width="220" style="display: inline-block;">
+    <img src="../assets/layer3.png" alt="Layer3" width="220" style="display: inline-block;">
 </div>
 
-Se attiva crea una circonferenza attorno all’imbarcazione, quando l’imbarcazione si sposta più del raggio selezionato dalla circonferenza scatterà un allarme.
+Nella parte inferiore della schermata sono presenti altri due pulsanti, sempre relativi ai layer:
 
-Cliccando sul bottone *info* comprarirà un pop-up. 
+1 - Date: Consente di selezionare una data specifica per visualizzare le informazioni relative al layer scelto.
 
-All'interno vi sarà descritta una legenda che spiega il funzionamento della virtual Anchor.
+2 - Info: Permette di aprire una legenda che aiuta a interpretare correttamente i diversi layer.
 
-<div style="margin-top:30px;">
-    <img src="../assets/legenda.png" alt="Legenda" width ="250">
-</div>
-
-
-### 3. Weather Screen
+### 4. Weather Screen
 
 In questa sezione sono contenute tutte le informazioni relative alle condizioni meteo orarie e del dettaglio marino del servizio [DTN](https://devportal.dtn.com/catalog).
 
-<div style="margin-top:30px;">
-    <img src="../assets/weather.png" alt="Weather" width ="250">
+<div style="text-align:center; margin-top: 30px;">
+    <img src="../assets/weather1.png" alt="Weather1" width="250" style="display: inline-block;">
+    <img src="../assets/weather2.png" alt="Weather2" width="250" style="display: inline-block; margin-left: 20px;">
 </div>
 
 Di seguito un elenco di tutte i dati che possiamo trovare nella pagina:
@@ -472,9 +487,16 @@ Di seguito un elenco di tutte i dati che possiamo trovare nella pagina:
 * `Total Swell Wave Direction`: Direzione totale del moto delle onde misurato in gradi.
 * `Total Swell Wave Height`: Altezza totale del moto delle onde.
 
+### 5. Ports Screen
+
+Cliccando sul pulsante Ports è possibile visualizzare i porti più vicini all’imbarcazione. Selezionando un porto specifico, vengono mostrati i seguenti dati informativi, se disponibili: `nome`, `canale radio`, `coordinate` e `numero di telefono della capitaneria di porto`.
+
+<div>
+    <img src="../assets/port.png" alt="Port" width="250" style="display: inline-block;">
+</div>
 
 ## Settings Screen
-L'ultimo bottone presente all'interno del `Menu Principale` rappresentato da un icona **Ingranaggio** è quello per i *Settings*.
+L'ultimo bottone presente all'interno del `Menu Principale`, rappresentato dall'icona di un **Ingranaggio**, è quello per i *Settings*.
 
 <div style="margin-top:30px;">
     <img src="../assets/settings.png" alt="Settings" width ="250">
@@ -486,31 +508,16 @@ In questa pagina l'utente avrà accesso a diverse opzioni relative alle impostaz
 
 ### 1. Profile Page
 
-In questa pagina l’utente potrà visualizzare le proprie informazioni quali `tenant`, `customer`, `username`, `email`, `nome` e `cognome` dell’account. 
-
-Avrà la possibilità di poter cambiare la propria immagine di profilo cliccando sull'apposito bottone.
+In questa pagina l’utente potrà visualizzare le proprie informazioni quali `tenant`, `customer`, `username`, `email`, `nome` e `cognome` dell’account.
 
 <div style="margin-top: 30px;">
     <img src="../assets/profile_page.png" alt="Profile Page" width="250" style="display: inline-block;">
-    <img src="../assets/profile_photo.png" alt="Profile Photo" width="240" style="display: inline-block; margin-left: 20px;">
+    <img src="../assets/profile_photo.png" alt="Profile Photo" width="250" style="display: inline-block; margin-left: 20px;">
 </div>
 
-Si aprirà di conseguenza un menu dove sarà possibile cambiare la propria foto profilo scegliendo nell'archivio del proprio dispositivio oppure scattare una foto in quel preciso istante ed utilizzarla.
+È possibile modificare l’immagine di profilo cliccando sull’apposito pulsante. Verrà aperto un menu che consente di selezionare una foto dall’archivio del dispositivo oppure di scattarne una nuova.
 
-
-### 2. Assistance Screen
-
-In questa pagina l’utente potrà leggere le `F.A.Q` (domande frequenti), e richiedere assistenza tramite le apposite informazioni di contatto. 
-
-Sarà possibile aprire un Tickets di supporto cliccando sul bottone apposito in alto a sinistra.
-
-<div style="margin-top:30px;">
-    <img src="../assets/assistance_screen.png" alt="Settings" width ="250">
-</div>
-
-Le FAQ potranno essere ridimensionate in modo da non visualizzare quelle di non interesse.
-
-### 3. Settings Page
+### 2. Settings Page
 
 In questa pagina l’utente potrà visualizzare tutte le impostazioni dell’app: vibrazione, suoneria e inoltre potrà personalizzare l’immagine della propria barca.
 
@@ -519,10 +526,9 @@ In questa pagina l’utente potrà visualizzare tutte le impostazioni dell’app
     <img src="../assets/ship_photo.png" alt="Ship Photo" width="250" style="display: inline-block; margin-left: 20px;">
 </div>
 
-Cliccando sul pulsante al di sotto dell'immagine dell'imbarcazione si aprirà un menu dove sarà possibile cambiare la propria foto profilo scegliendo nell'archivio del proprio dispositivio oppure scattare una foto in quel preciso istante ed utilizzarla.
+Cliccando sul pulsante al di sotto dell'immagine dell'imbarcazione, si aprirà un menu che consente di selezionare una foto dall’archivio del dispositivo oppure di scattarne una nuova.
 
-
-### 4. Change Pin
+### 3. Change Pin
 
 Cliccando su *Change Pin* si aprirà la schermata dove sarà possibile cambiare il pin per poter armare e disarmare l'imbarcazione.
 
@@ -532,15 +538,21 @@ Inizialmente viene dato un pin di *default* che è consigliabile cambiare il pri
     <img src="../assets/change_pin.png" alt="Change Pin" width ="250">
 </div>
 
+### 4. Change Password for Wi-Fi
+
+Cliccando su *Change Password for Wi-Fi* si apre la schermata dedicata, dalla quale è possibile modificare la password della rete Wi-Fi del dispositivo pixora-edge, utilizzata per la connessione a Internet.
+
+<div style="text-align:center; margin-top:30px;">
+    <img src="../assets/change_wifi_password.png" alt="Change Wi-Fi" width ="250">
+</div>
+
 ### 5. Change Boat
 
 Cliccando sul bottone *Change Boat* si verrà riportati alla sezione dove è possibile selezionare un'altra imbarcazione tra quelle in possesso.
 
-
 ### 6. Logout
 
 Cliccando su Logout l'utente verrà riportato alla schermata di Login dove potrà inserire di nuovo le credenziali di accesso. 
-
 
 ## TLC Screen
 
@@ -573,4 +585,3 @@ Cliccando su un giorno in cui è presente un `evento`, Comparirà un elenco di a
 In questo modo la dicitura evidenziata in verde ***Live*** presente in alto a destra verrà sostituita da ***VOD*** evidenziato in giallo, per indicare che il video non è più in diretta bensì si tratta di una registrazione.
 
 Un pulsante ***X*** affianco allo stato ci permetterà di ritornare a visualizzare la live della telecamera.
- 
