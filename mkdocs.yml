@@ -4,14 +4,27 @@ theme:
   name: material
   logo: assets/logo.png
   favicon: assets/favicon.png
-  language: it
   palette:
     primary: cyan
     accent: indigo
   features:
     - navigation.expand
+    - navigation.tabs
+    - i18n.alternates
 plugins:
   - search
+  - i18n:
+      default_language: it
+      languages:
+        - locale: it
+          name: Italiano
+          default: true
+          build: true
+        - locale: en
+          name: English
+          default: false
+          build: true
+      exclude: assets/* ```
   - print-site:
       add_to_navigation: true
       print_page_title: 'Print'

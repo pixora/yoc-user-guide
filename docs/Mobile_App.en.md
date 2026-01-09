@@ -2,15 +2,16 @@
 
 # Welcome to Yacht On Cloud user guide.
 
-## Login
+## Login Screen
 Per effettuare il log-in è obbligatorio l’inserimento nei form dei seguenti campi: 
 
 * `Tenant`: Nome identificativo dello specifico tenant abilitato.
 * `Email`: La propria e-mail che rappresenta la chiave univoca dell’utente.
 * `Password`: La propria password.
 
+
 <div style="margin-top: 30px;">
-    <img src="../assets/login_screen.png" alt="Login Screen" width="250">
+    <img src="../../assets/login_screen.png" alt="Login Screen" width="250">
 </div>
 
 Dopo aver riempito i campi sarà possibile cliccare sul tasto `Log In`.
@@ -19,31 +20,19 @@ In caso di credenziali errate l'utente verrà informato con un messaggio di erro
 
 In caso di credenziali corrette l'utente passerà alla prossima schermata.
 
-### Reset Password
-Per effettuare il reset della password è obbligatorio l’inserimento nei form dei seguenti campi: 
-
-* `Tenant`: Nome identificativo dello specifico tenant abilitato.
-* `Email`: La propria e-mail che rappresenta la chiave univoca dell’utente.
-
-<div style="margin-top: 30px;">
-    <img src="../assets/reset_password_screen.png" alt="Reset Password Screen" width="250">
-</div>
-
-Verrà inviata una email all'indirizzo fornito per effettuare il reset. 
-
-## Selezione del Vessel
+## Vessel Selection Page
 
 In questa schermata l'utente avrà la possibilità di visualizzare i propri `Vessel`, registrati all'interno del sistema.
 
 Se per un determinato customer è presente un solo vessel, questo verrà selezionato automaticamente subito dopo la schermata di login. Nel caso in cui siano disponibili più customer, l’utente potrà scorrerli e selezionare il vessel desiderato.
 
 <div style="text-align: center; margin-top:30px;">
-    <img src="../assets/select_vessel1.png" alt="Vessel Screen" width="250">
-    <img src="../assets/select_vessel2.png" alt="Vessel Screen 2" width="250" style="display: inline-block; margin-left: 30px;">
+    <img src="../../assets/select_vessel.png" alt="Vessel Screen" width="250">
+    <img src="../../assets/select_vessel2.png" alt="Vessel Screen 2" width="250" style="display: inline-block; margin-left: 30px;">
 </div>
 
 
-Il colore dell'icona `verde` o `grigia` indicherà rispettivamente un'imbarcazione online (raggiungibile) o offline (non raggiungibile). 
+Lo sfondo `verde` o `grigio` indicherà rispettivamente un'imbarcazione online (raggiungibile) o offline (non raggiungibile). 
 
 
 ## Vessel Dashboard
@@ -56,83 +45,139 @@ Il colore dell'icona `verde` o `grigia` indicherà rispettivamente un'imbarcazio
 
 <div style="margin-bottom: 30px;"></div>
 
-### Indicatori di Stato e Campi Informativi
-*Online/Offline*: Indicatore testuale e cromatico (punto verde) che segnala lo stato di connessione dello yacht al cloud.
+### 1. Boat Info
 
-*Yacht Name*: Campo che visualizza il nome dell'imbarcazione attualmente selezionata (es. "I AM").
+La dashboard si presenta in questo modo. 
 
-*Mappa di Sfondo*: Visualizzazione cartografica che mostra la posizione GPS in tempo reale dello yacht.
+In alto troveremo le informazioni riguardanti l'imbarcazione: 
 
-*Tile dei Sensori/Dispositivi*: Griglia di riquadri colorati che riportano il nome del dispositivo (es. Door1, Smoke1), lo stato attuale (Open/Closed, OK, lux) e un'icona identificativa. I colori indicano lo stato di allerta (Verde per OK/Chiuso, Rosso per Aperto/Allarme).
+* Lo stato dell'imbarcazione: Se essa è raggiungibile o meno: `Online` o `Offline`.
+* Il nome e la tipologia della propria imbarcazione: `Yatch`, `Catamarano` o `Dinghi`.
+* Se risulta ancorata oppure no: `Moored` o `Unfastened`.
 
-### Azioni e Controlli
-*Filtri Categoria* (Action, Other, Environment, ecc.): Pulsanti situati nella parte superiore per filtrare la visualizzazione dei dispositivi IoT in base alla loro funzione.
-
-*Quick Actions Laterali*:
-
-- Icona Ancora: Attivazione/disattivazione dell'allarme ancora.
-
-- Icona Lucchetto: Comando per il blocco o sblocco centralizzato degli accessi.
-
-*Edit*: Pulsante con icona matita per personalizzare la disposizione o la selezione delle tile nella dashboard.
-
-*Barra di Navigazione Inferiore*:
-
-- Home (Icona Casa): Ritorno alla dashboard principale.
-
-- Notifiche (Icona Campanella): Accesso allo storico degli avvisi e degli allarmi.
-
-- Mappa (Icona Mappa Aperta): Visualizzazione della cartografia a schermo intero.
-
-- Geofencing (Icona Segnaposto): Accesso alle impostazioni dei perimetri di sicurezza geografica.
-
-- Impostazioni (Icona Ingranaggio): Accesso alla configurazione del profilo e dell'app.
-
-### Modalità di Edit
-
-<div style="margin-bottom: 30px;"></div>
-
-<div>
-    <img src="../assets/home_page_edit_mode.png" alt="Home Screen" width="250">
-</div>
-
-<div style="margin-bottom: 30px;"></div>
-#### Campi e Indicatori
-*Tile dei Dispositivi*: Ogni riquadro visualizza il nome del sensore, l'icona e lo stato attuale.
-
-*Check di Selezione*: In questa modalità, ogni tile presenta un check circolare in alto a destra. Se il check è selezionato, il dispositivo rimarrà visibile nella dashboard; deselezionandolo, il dispositivo verrà rimosso dalla visualizzazione principale.
-
-#### Azioni e Controlli
-*Drag & Drop (Trascina e Rilascia)*: L'utente può riordinare i dispositivi sulla griglia trascinando le tile nella posizione desiderata.
-
-*Selezione/Deselezione*: Cliccando su una tile, l'utente decide se includere o escludere quel sensore dalla propria dashboard personalizzata.
-
-*Add All*: Comando per aggiungere contemporaneamente tutti i dispositivi disponibili alla dashboard.
-
-*Add Device*: Pulsante per accedere alla selezione dei singoli dispositivi IoT da monitorare.
-
-*Apply*: Pulsante per confermare definitivamente le modifiche all'ordine e alla selezione (inclusione/rimozione) dei dispositivi.
-
-#### Aggiunta e Configurazione dei Dispositivi
-Una lista a scorrimento che mostra tutti i sensori disponibili (es. Door, TriSensor, Smoke) identificati da un'icona e dal nome.
-Per i dispositivi che monitorano più parametri viene visualizzato un sottomenu che elenca le specifiche misurazioni disponibili.
+Cliccando sullo stato dell'imbarcazione si verrà reinderizzati verso la pagina di connettività. **[Vedi Connectivity Screen](#connectivity-screen)**
 
 <div style="text-align: center; margin-top:30px;">
-    <img src="../assets/add_device1.png" alt="Vessel Screen" width="250">
-    <img src="../assets/add_device2.png" alt="Vessel Screen 2" width="250" style="display: inline-block; margin-left: 30px;">
+    <img src="../assets/online.png" alt="Online" width="250">
+    <img src="../assets/offline.png" alt="Offline" width="270" style="display: inline-block; margin-left: 30px;">
 </div>
 
-**Azioni e Controlli**
+L'immagine centrale cambierà in base alla `tipologia` di imbarcazione di cui siamo in possesso. 
 
-- *Selezione Dispositivo*: L'utente può scorrere la lista e selezionare il sensore da aggiungere alla Dashboard.
+In caso l'imbarcazione sia offline lo sfondo alle spalle dell'immagine risulterà `grigio`.
 
-- *Espansione Sottomenu*: Cliccando su un dispositivo multi-valore (indicato da una freccia accanto al nome), l'utente può espandere la lista dei dettagli per scegliere quale valore specifico mostrare nella tile della Dashboard.
+In caso sia presente un evento allarmante riguardante l'imbarcazione lo sfondo alle spalle sarà `rosso`.
 
-- *Chiusura (X)*: Pulsante in alto a destra per chiudere il pannello di selezione e tornare alla modalità di editing precedente.
+<div style="text-align: center; margin-top:30px;">
+    <img src="../assets/gray_ship.png" alt="Offline Ship" width="250">
+    <img src="../assets/red_ship.png" alt="Alarmed Ship" width="260" style="display: inline-block; margin-left: 30px;">
+</div>
 
-- *Conferma Selezione*: L'icona a forma di freccia in basso a destra permette di procedere con l'inserimento del parametro scelto.
+<div style="margin-bottom: 50px;"></div>
 
-## Dettaglio Dispositivi
+### 2. Menu Rapido
+
+Al di sotto del bottone troveremo una piccola sezione `Boat Status`.
+
+Questa sezione ha la funzione di menu' rapido, in cui è possibile visionare le informazioni relative ai Device: `Control Panel, Environment, Action, Security, Safety` e infine è possibile visionare le `Telecamere` di sicurezza presenti sull’imbarcazione. **[Vedi TLC Screen](#tlc-screen)** 
+
+Ogni pulsante del menu rendirizzerà l'utente verso una sezione specifica di cui tratteremo in seguito.
+
+Quando ci sarà un nuovo allarme sul pulsante `Security` apparirà un pallino rosso sull'icona.
+
+<div style="text-align: center; margin-top:30px;">
+    <img src="../assets/menu_rapido.png" alt="Menu Rapido" width="350">
+</div>
+
+All'interno di questa sezione troviamo anche altre quattro funzionalità:
+
+1 - Il pulsante che ci permette di cambiare lo stato dell'imbarcazione da `Armed` a `Disarmed`. Questo abilita il sistema di monitoraggio e sicurezza perimetrale.
+Cliccando, per armare, ci comparirà un pop-up e ci verrà richiesto il **PIN** di sicurezza. Inoltre comparirà un avviso in caso il device si trovi in stato `Triggered` (ad esempio se una porta è in stato open). *Inizialmente ci sarà un PIN di default che verrà dato al cliente, per modificare* **[Vedi 4. Change Pin](#4-change-pin)**
+
+<div style="margin-top: 30px;">
+    <img src="../assets/armed_pin.png" alt="Armed" width="300" style="display: inline-block;">
+    <img src="../assets/triggered_pop.png" alt="Triggered" width="300" style="display: inline-block; margin-left: 70px;">
+</div>
+
+2 - Il pulsante `Connectivity` che consente di verificare se il dispositivo pixora-edge è connesso a Internet e, in caso positivo, di monitorare la qualità della connessione.
+
+<div>
+    <img src="../assets/connectivity_screen.png" alt="Home Screen" width="250">
+</div>
+
+Come si può notare nel grafico è presente una scala di valori rappresentati da dei colori: 
+
+* `Green` = Good.
+* `Yellow` = Poor.
+* `Red` = Bad.
+
+In genere il valore minimo indica che non vi è alcun segnale.
+
+Lo stato ci indica lo stato di connessione globale:
+
+* Se almeno un valore è rosso allora lo stato è `NOCONN`. 
+
+* Se almeno un valore è giallo allora lo stato è `POOR`.
+
+* Se almeno un valore è verde allora lo stato è `GOOD`.
+
+3 - Il pulsante `Routes` che mostra lo storico delle rotte percorse dall’imbarcazione. Selezionando una rotta specifica è possibile aprirne il dettaglio completo.
+
+<div style="margin-top: 30px;">
+    <img src="../assets/route_screen.png" alt="Route Screen" width="250" style="display: inline-block;">
+    <img src="../assets/route_detail_screen.png" alt="Route Detail Screen" width="250" style="display: inline-block; margin-left: 70px;">
+</div>
+
+4 - Il pulsante `SOS`, da utilizzare esclusivamente in caso di emergenza, che consente di contattare direttamente i soccorsi selezionando il contatto desiderato.
+
+<div>
+    <img src="../assets/sos_screen.png" alt="Home Screen" width="300">
+</div>
+
+### 3. Menu Principale
+
+Infine abbiamo il menu principale dove è possibile navigare tra Home – Allarmi – Devices – Mappa – Impostazioni.
+
+In breve: 
+
+* `Home`: Permette di ritornare alla sezione Dashboard principale.
+* `Alarm`: Permette di spostarsi nella sezione allarmi dove si potrà visualizzare lo storico degli allarmi attivati.
+* `Devices`: Permette di spostarsi nella sezione dove si avrà accesso alla lista di tutti i dispositivi.
+* `Map`:  Permette di spostarsi nella sezione dove sarà possibile visualizzare la mappa.
+* `Settings`: Permette di spostarsi nella sezione di impostazioni del sistema.
+
+<div style="text-align: center; margin-top:30px;">
+    <img src="../assets/menu_principale.png" alt="Menu Principale">
+</div>
+
+<div style="margin-bottom: 40px;"></div>
+
+*Queste sezioni verranno discusse in seguito in dettaglio.*
+
+## Dashboard Devices
+
+Abbiamo due modi per poter visualizzare i dispositivi disponibili per la nostra imbarcazione: utilizzare il `Menu Rapido` per andare ad analizzare la macrocategoria di dispositivi a cui siamo interessati, oppure utilizzare il `Menu Principale` e cliccare sul pulsante "Devices" (raffigurato da un icona apposita) in questo modo avremo una schermata con tutti i dispositivi.
+
+Cliccando sull'icona per visualizzare tuti i dispositivi avremo una schermata scorrevole.
+
+<div style="text-align:center; margin-top: 30px;">
+    <img src="../assets/devices_1.png" alt="Devices1" width="250" style="display: inline-block;">
+    <img src="../assets/devices_2.png" alt="Devices2" width="250" style="display: inline-block; margin-left: 70px;">
+</div>
+
+<div style="margin-top: 50px;"></div>
+
+Ogni card che troviamo in questa schermata corrisponde ad un device, ogni device ha la sua pagina con i relativi dettagli.
+
+Nella pagina di dettaglio del sensore verranno rappresentati in lista tutte le metriche associate ad un dato sensore. 
+
+Accanto a ciascuna telemetria un pulsante consentirà di accedere alla sezione *History* per la visualizzazione tutte le telemetrie per una più completa ricerca. **[(Vedi History Page)](#10-history-page)**.
+
+Infine un **carosello** a pié di pagina serve per spostarsi velocemente tra dispositivi della stessa categoria.
+
+*Questi funzionamenti sono uguali per tutti i dispositivi.*
+
+
 
 ### 1. Door Page
 

@@ -1,6 +1,6 @@
 # Summary
 
-## Mobile App Guide
+## Guida Mobile App
 
 - [Login Screen](Mobile_App.md#login-screen)
 

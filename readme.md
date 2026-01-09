@@ -7,6 +7,7 @@
 #Python setup
     pip install mkdocs-material
     pip install mkdocs-print-site-plugin
+    pip install mkdocs-static-i18n
 
 #Mkdocs run
     mkdocs serve
