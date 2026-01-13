@@ -2,21 +2,23 @@
 
 ## Guida Mobile App
 
-- [Login Screen](Mobile_App.md#login-screen)
+- [Login](Mobile_App.md#login)
 
-- [Vessel Selection Page](Mobile_App.md#vessel-selection-page)
+- [Selezione del Vessel](Mobile_App.md#selezione-del-vessel)
 
 - [Vessel Dashboard](Mobile_App.md#vessel-dashboard)
 
-- [Dashboard Device](Mobile_App.md#dashboard-devices)
+- [Modalità di Edit](Mobile_App.md#modalita-di-edit)
 
-- [Alarms Dashboard](Mobile_App.md#alarms-dashboard)
+- [Dettagli dispositivo](Mobile_App.md#dettagli-dispositivo)
 
-- [Tracking Page](Mobile_App.md#tracking-page)
+- [Dashboard Allarmi](Mobile_App.md#dashboard-allarmi)
 
-- [Settings Page](Mobile_App.md#settings-screen)
+- [Tracking](Mobile_App.md#tracking)
 
-- [TLC Screen](Mobile_App.md#tlc-screen)
+- [Impostazioni](Mobile_App.md#impostazioni)
+
+- [TLC](Mobile_App.md#tlc)
 
 ## Web App Guide
 

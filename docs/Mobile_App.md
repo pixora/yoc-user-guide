@@ -132,21 +132,46 @@ Per i dispositivi che monitorano più parametri viene visualizzato un sottomenu 
 
 - *Conferma Selezione*: L'icona a forma di freccia in basso a destra permette di procedere con l'inserimento del parametro scelto.
 
-## Dettaglio Dispositivi
+## Dettagli Dispositivo
 
-### 1. Door Page
+In questa sezione viene descritta la schermata di dettaglio di un singolo dispositivo, che fornisce informazioni approfondite sul suo stato e sulla cronologia degli eventi.
+
+**Campi e Indicatori Informativi**
+
+- *Stato Connessione Yacht*: In alto a sinistra è indicato lo stato "Online" dell'imbarcazione con il relativo indicatore cromatico.
+
+- *Nome Yacht*: Identifica l'imbarcazione su cui è installato il sensore (es. "I AM").
+
+- *Categoria Dispositivo*: Indica la tipologia di appartenenza del sensore (es. "Security").
+
+- *Nome e ID Dispositivo*: Visualizza il nome assegnato al sensore (es. "Door1").
+
+- *Stato Attuale*: Mostra la condizione del sensore in tempo reale (es. "Closed" o "Open") accompagnata da un'icona che ne indica lo stato di alimentazione o connessione.
+
+- *Ultimo Aggiornamento (Latest)*: Indica la data e l'ora dell'ultima lettura ricevuta dal sensore (es. "14.11.2025 13:43").
+
+- *Ultimo Allarme (Last Alarm)*: Specifica la data e l'ora dell'ultimo evento di allarme registrato (es. "14.11.2025 13:09").
+
+**Azioni e Controlli**
+
+- *Pulsante Indietro (Freccia)*: Situato in alto a sinistra, permette di tornare alla Dashboard principale.
+
+- *Historic*: Sezione selezionabile che consente l'accesso alla cronologia completa degli stati e degli eventi registrati dal dispositivo nel tempo.
+
+- *Click sul dettaglio*: Consente di aprire la sezione della cronologia completa degli stati e degli eventi registrati dal dispositivo nel tempo.
+
+### 1. Door
 
 La schermata *Door* serve per monitorare lo stato delle porte, se essa siano aperta o chiusa.
 
 `Verde` indica che la porta è chiusa, `Rosso` indica che la porta è aperta.
 
-<div style="text-align: center; margin-top:30px;">
-    <img src="../assets/door_screen.png" alt="Door Screen" width ="250">
-    <img src="../assets/door2.png" alt="Devices2" width="238" style="display: inline-block; margin-left: 70px;">
+<div style="margin-top:30px;">
+    <img src="../assets/door_page.png" alt="Door Screen" width ="250">
 </div>
 
 
-### 2. Tri-Sensor Page
+### 2. Tri-Sensor
 
 La schermata *Tri-Sensor* serve per monitorare i 3 sensori: `Motion Sensor`, `Temperature` e `Illuminance`.
 
@@ -158,11 +183,8 @@ La schermata *Tri-Sensor* serve per monitorare i 3 sensori: `Motion Sensor`, `Te
 * **Temperature** = Misura la temperatura dell'imbarcazione.
 * **Illuminance** = Misura la quantità di *Luce* presente.
 
-Qui possiamo controllare gli ultimi valori dei sensori e la percentuale di batteria del dispositivo. 
 
-
-
-### 3. Smoke Page
+### 3. Smoke
 
 La schermata *Smoke* serve per rilevare la presenza di fumo. 
 
@@ -173,25 +195,18 @@ Come per la *Door* anche i colori sono i medesimi di conseguenza `Verde` indica 
 </div>
 
 
-### 4. Actuator Page
+### 4. Actuator
 
 Gli *Actuator* permettono di controllare lo stato delle luci all'interno dell'imbarcazione.
 
-<div style="text-align:center; margin-top:30px;">
-    <img src="../assets/b_actuator_screen.png" alt="RGBA Lines Actuator Screen" width ="250">
-    <img src="../assets/rgba_lines_actuator_screen.png" alt="BActuator Screen" width="250" style="display: inline-block; margin-left: 70px;">
-</div>
-
-Gli switch indicano se la luce sia o meno spenta.
-
-`Bianco` indica che la luce è spenta, mentre `Giallo` indica che la luce è accesa. 
+Gli switch indicano se la luce sia o meno spenta, in base al colore attivo/non attivo.
 
 Azionando lo switch, questo cambierà colore ed effettivamente le luci all'interno dell'imbarcazione si comporteranno di conseguenza.
 
 Il valore `ON` e `OFF` indicato sotto alle diciture *Line*, è un ulteriore avviso sull'attuale stato delle luci.
 
 
-### 5. Siren Page
+### 5. Siren
 
 La schermata *Siren* permette di controllare lo stato della sirena in caso stia suonando o meno.
 
@@ -202,13 +217,12 @@ Anche qui i colori sono gli stessi per la door.
 </div>
 
 
-### 6. Engine Page
+### 6. Engine
 
 La schermata *Engine* permette di controllare i valori riguardanti il motore dell'imbarcazione.
 
-<div style="text-align:center; margin-top: 30px;">
-    <img src="../assets/engine_page1.png" alt="Engine1" width="250" style="display: inline-block;">
-    <img src="../assets/engine_page2.png" alt="Engine2" width="240" style="display: inline-block; margin-left: 70px;">
+<div style="margin-top: 30px;">
+    <img src="../assets/engine_page.png" alt="Engine1" width="250" style="display: inline-block;">
 </div>
 
 Al suo interno sono presenti diversi valori:
@@ -225,11 +239,6 @@ Al suo interno sono presenti diversi valori:
 
 La schermata *Navigation* permette di controllare tutti i dati riguardanti la navigazione.
 
-<div style="text-align:center; margin-top: 30px;">
-    <img src="../assets/navigation1.png" alt="Navigation1" width="250" style="display: inline-block;">
-    <img src="../assets/navigation2.png" alt="Navigation2" width="250" style="display: inline-block; margin-left: 70px;">
-</div>
-
 Come per Engine anche qui abbiamo diversi valori: 
 
 * `Latitude` = Permette di visualizzare la latitudine.
@@ -244,10 +253,6 @@ Come per Engine anche qui abbiamo diversi valori:
 
 La schermata *Meteo* permette di monitorare le condizioni atmosferiche secondo dati nautici.
 
-<div style="text-align:center; margin-top: 30px;">
-    <img src="../assets/meteo1.png" alt="Meteo1" width="250" style="display: inline-block;">
-    <img src="../assets/meteo2.png" alt="Meteo2" width="250" style="display: inline-block; margin-left: 70px;">
-</div>
 
 Anche qui avremo diversi valori a disposizione: 
 
@@ -262,50 +267,56 @@ Anche qui avremo diversi valori a disposizione:
 
 La schermata *Battery* consente di monitorare in tempo reale i valori della batteria del motore.
 
-<div style="margin-top:30px;">
-    <img src="../assets/battery_page.png" alt="Battery Screen" width ="250">
-</div>
 
-
-### 10. History Page
+### 10. History
 
 La *History* permette di poter visualizzare lo storico delle `telemetrie` di un dispositivo. 
 
-Generalmente nel momento in cui proviamo a visualizzare lo storico di un determinato device comparirà un grafico dove ci vengono mostrate le ultime telemetrie e il loro andamento nel tempo.
+### Campi e Indicatori Comuni
 
-Lo storico ci viene rappresentato in tre modi differenti: 
+- *Nome della Metrica/Sensore*: Titolo in alto a sinistra che identifica il dato monitorato (es. fuelRate o Door1).
 
-* Grafico a barre.
-* Grafico a linee o ad area.
-* Tabella con valori.
+- *Intervallo Temporale*: Indica il periodo analizzato tramite le date di inizio (from) e di fine (to).
+
+- *Nota di Campionamento*: Didascalia inferiore che specifica la densità dei dati mostrati (es. "Only the last 24 values shown").
 
 <div style="text-align:center; margin-top: 30px;">
-    <img src="../assets/grafico_barre.png" alt="Grafico Barre" width="250" style="display: inline-block;">
-    <img src="../assets/grafico_linee.png" alt="Grafico Linee" width="260" style="display: inline-block; margin-left: 70px;">
+    <img src="../assets/history_page1.png" alt="Grafico 1" width="250" style="display: inline-block;">
+    <img src="../assets/history_page2.png" alt="Grafico 2" width="250" style="display: inline-block; margin-left: 70px;">
 </div>
+
+### Grafico Lineare (Dati Continui)
+
+Utilizzato per parametri numerici che variano nel tempo, come il consumo di carburante (fuelRate).
+
+Andamento Dinamico: Una linea continua mostra le fluttuazioni del valore.
+
+Valori di Scala: L'asse verticale riporta i valori puntuali minimi e massimi registrati nel periodo (es. da 33.8 lt/h a 41.9 lt/h).
+
+### Grafico a Punti (Stati Discreti/Eventi)
+
+Utilizzato per sensori binari o di stato, come i sensori porta (Door).
+
+Rilevazione Eventi: Il grafico mostra punti isolati in corrispondenza di ogni cambio di stato o rilevazione effettuata.
+
+Asse degli Stati: L'asse verticale indica lo stato o il numero di eventi, mentre l'asse orizzontale riporta le date specifiche delle occorrenze.
 
 L'ultima rappresentazione ci viene mostrata nel momento in cui non abbiamo telemetrie negli ultimi 7 giorni. 
 
-<div style="text-align:center; margin-top:30px;">
-    <img src="../assets/tabella_valori.png" alt="Tabella Valori" width ="250">
-</div>
+### Azioni e Controlli
+
+- *Edit (Icona Calendario)*: Consente di modificare l'intervallo temporale per consultare dati storici di periodi differenti.
+
+- *Chiusura (X)*: Pulsante in alto a destra per chiudere il popup della cronologia e tornare alla schermata di dettaglio.
 
 Sopra al grafico o al messaggio che ci avvisa di non aver trovato dati recenti, vi sono delle indicazioni che riguardano il dispositivo, il range di giorni in cui recuperare i valori e il tempo di aggregazione. *Questi sono valori di default*
 
 
 Cliccando sul bottone in alto a destra *History Filter*, vi è la possibilità anche di impostare dei filtri per una migliore gestione di visualizzazione dei dati. 
 
-<div style=" margin-top:30px;">
-    <img src="../assets/filtro.png" alt="Filtro Valori" width ="200">
-</div>
-
-Come si può vedere dall'immagine, è possibile in questo modo decidere il range di giorni e filtrare i dati per quel range, di default la modalità di aggregazione sarà *DAILY*. 
+E' possibile in questo modo decidere il range di giorni e filtrare i dati per quel range, di default la modalità di aggregazione sarà *DAILY*. 
 
 Spuntando la casella *Advanced Mode* avremo a disposizione dei filtri avanzati. 
-
-<div style=" margin-top:30px;">
-    <img src="../assets/filtro_advanced.png" alt="Filtro Avanzato" width ="200">
-</div>
 
 In questo modo potremmo modificare alcuni dati tra cui: Retrieved Data, Aggregation Time, Aggregation Function. 
 
@@ -320,8 +331,7 @@ Esistono vari tipi di funzioni di aggregazione:
 Inoltre dove è possibile, in caso di più valori in un singolo device, è possibile anche scegliere quale telemetria vogliamo analizzare.
 
 
-
-## Alarms Dashboard
+## Dashboard Allarmi
 
 All'interno del `Menu Principale`, cliccando sull'apposita icona (rappresentata da una **sveglia**), è possibile visualizzare un elenco degli ultimi allarmi scattati.
 
@@ -348,10 +358,6 @@ Mentre l'app è aperta verrà mostrata una notifica pop-up con le informazioni d
 
 Nella modale saranno presenti due `pulsanti`, uno per accedere al dettaglio del sensore collegato all’evento allarmante e un pulsante che consente di armare o disarmare.
 
-<div style="margin-top:30px;">
-    <img src="../assets/notifica_alarm.png" alt="Notifica Screen" width ="250">
-</div>
-
 In base alla tipologia dell'errore la modale avrà delle funzionalità differenti. 
 
 Se l'evento allarmante è un sensore specifico ci sarà la possibiità di accedere al dettaglio del sensore collegato all’allarme e un pulsante che consente di armare o disarmare.
@@ -361,13 +367,13 @@ Se l'evento allarmante riguarda il GPS, comparirà la possibilità di accedere a
 Nel caso di allarme `Security` apparirà anche la possibilità di eseguire lo sblocco dell’armatura, altresì nel caso di allarme di tipo `Anchor` il pulsante per la disattivazione dell’ancora. 
 
 
-## Tracking Page
+## Tracking
 
-All'interno del `Menu Principale`, cliccando sull'apposita icona (rappresentata da una **Mappa**), è possibile attivare il tracking in tempo reale della propria imbarcazione.
+All'interno del `Menu Principale`, cliccando sull'apposita icona (rappresentata da una **Mappa**), è possibile attivare il tracking in tempo reale della propria imbarcazione e le informazioni meteo.
 
 <div style="text-align:center; margin-top: 30px;">
-    <img src="../assets/mappa.png" alt="Mappa" width="250" style="display: inline-block;">
-    <img src="../assets/mappa2.png" alt="Mappa2" width="250" style="display: inline-block; margin-left: 70px;">
+    <img src="../assets/tracking_page1.png" alt="Mappa" width="250" style="display: inline-block;">
+    <img src="../assets/tracking_page2.png" alt="Mappa2" width="250" style="display: inline-block; margin-left: 70px;">
 </div>
 
 Cliccando sull'icona della propria imbarcazione sarà possibile visualizzare alcuni dati come la Latitudine e la Longitudine del luogo in cui si trova in quel momento l'imbarcazione.
@@ -378,9 +384,8 @@ In questa sezione abbiamo diverse funzionalità, tutte corrisposte da un apposit
 
 Cliccando sul pulsante *Virtual Anchor* è possibile attivare l’ancora virtuale. Nella relativa schermata è inoltre disponibile una legenda che ne illustra il funzionamento.
 
-<div style="text-align:center; margin-top: 30px;">
+<div style="margin-top: 30px;">
     <img src="../assets/virtual_anchor.png" alt="Virtual Anchor1" width="250" style="display: inline-block;">
-    <img src="../assets/virtual_anchor2.png" alt="Virtual Anchor2" width="250" style="display: inline-block; margin-left: 20px;">
 </div>
 
 Se attiva, crea una circonferenza attorno all’imbarcazione e quando l’imbarcazione si sposta più del raggio selezionato dalla circonferenza scatterà un allarme.
@@ -389,9 +394,6 @@ Se attiva, crea una circonferenza attorno all’imbarcazione e quando l’imbarc
 
 Cliccando sull'apposito pulsante *Tracking History* è possibile visionare i movimenti dell’imbarcazione in un determinato giorno selezionabile da un calendario.
 
-<div style="margin-top:30px;">
-    <img src="../assets/tracking_history.png" alt="Tracking History" width ="250">
-</div>
 
 ### 3. Layer
 
@@ -409,9 +411,7 @@ Cliccando sul pulsante *Layer* è possibile selezionare il livello di informazio
 * `Wind Wave Directions`: Direzione delle onde generate dal vento.
 
 <div>
-    <img src="../assets/layer1.png" alt="Layer1" width="220" style="display: inline-block;">
-    <img src="../assets/layer2.png" alt="Layer2" width="220" style="display: inline-block;">
-    <img src="../assets/layer3.png" alt="Layer3" width="220" style="display: inline-block;">
+    <img src="../assets/layer.png" alt="Layer1" width="220" style="display: inline-block;">
 </div>
 
 Nella parte inferiore della schermata sono presenti altri due pulsanti, sempre relativi ai layer:
@@ -420,16 +420,11 @@ Nella parte inferiore della schermata sono presenti altri due pulsanti, sempre r
 
 2 - Info: Permette di aprire una legenda che aiuta a interpretare correttamente i diversi layer.
 
-### 4. Weather Screen
+### 4. Meteo
 
 In questa sezione sono contenute tutte le informazioni relative alle condizioni meteo orarie e del dettaglio marino del servizio [DTN](https://devportal.dtn.com/catalog).
 
-<div style="text-align:center; margin-top: 30px;">
-    <img src="../assets/weather1.png" alt="Weather1" width="250" style="display: inline-block;">
-    <img src="../assets/weather2.png" alt="Weather2" width="250" style="display: inline-block; margin-left: 20px;">
-</div>
-
-Di seguito un elenco di tutte i dati che possiamo trovare nella pagina:
+Di seguito un elenco di tutte i dati che possiamo trovare nel dettaglio:
 
 * `Hourly Forecast`: Viene presentato come un widget scrollabile lateralmente ed indica le previsioni meteo della giornata.
 * `Sea Surface Temperature`: Temperatura della superficie del mare.
@@ -442,15 +437,16 @@ Di seguito un elenco di tutte i dati che possiamo trovare nella pagina:
 * `Total Swell Wave Direction`: Direzione totale del moto delle onde misurato in gradi.
 * `Total Swell Wave Height`: Altezza totale del moto delle onde.
 
-### 5. Ports Screen
+### 5. Ports
 
 Cliccando sul pulsante Ports è possibile visualizzare i porti più vicini all’imbarcazione. Selezionando un porto specifico, vengono mostrati i seguenti dati informativi, se disponibili: `nome`, `canale radio`, `coordinate` e `numero di telefono della capitaneria di porto`.
 
-<div>
-    <img src="../assets/port.png" alt="Port" width="250" style="display: inline-block;">
+<div style="text-align:center; margin-top: 30px;">
+    <img src="../assets/port1.png" alt="Port" width="250" style="display: inline-block;">
+    <img src="../assets/port2.png" alt="Port Details" width="250" style="display: inline-block; margin-left: 70px;">
 </div>
 
-## Settings Screen
+## Impostazioni
 L'ultimo bottone presente all'interno del `Menu Principale`, rappresentato dall'icona di un **Ingranaggio**, è quello per i *Settings*.
 
 <div style="margin-top:30px;">
@@ -467,21 +463,17 @@ In questa pagina l’utente potrà visualizzare le proprie informazioni quali `t
 
 <div style="margin-top: 30px;">
     <img src="../assets/profile_page.png" alt="Profile Page" width="250" style="display: inline-block;">
-    <img src="../assets/profile_photo.png" alt="Profile Photo" width="250" style="display: inline-block; margin-left: 20px;">
 </div>
 
 È possibile modificare l’immagine di profilo cliccando sull’apposito pulsante. Verrà aperto un menu che consente di selezionare una foto dall’archivio del dispositivo oppure di scattarne una nuova.
 
 ### 2. Settings Page
 
-In questa pagina l’utente potrà visualizzare tutte le impostazioni dell’app: vibrazione, suoneria e inoltre potrà personalizzare l’immagine della propria barca.
+In questa pagina l’utente potrà visualizzare tutte le impostazioni dell’app: vibrazione, suoneria.
 
-<div style="text-align:center; margin-top:30px;">
-    <img src="../assets/settings_page.png" alt="Settings" width ="250">
-    <img src="../assets/ship_photo.png" alt="Ship Photo" width="250" style="display: inline-block; margin-left: 20px;">
+<div style="margin-top:30px;">
+    <img src="../assets/settings_notification.png" alt="Settings" width ="250">
 </div>
-
-Cliccando sul pulsante al di sotto dell'immagine dell'imbarcazione, si aprirà un menu che consente di selezionare una foto dall’archivio del dispositivo oppure di scattarne una nuova.
 
 ### 3. Change Pin
 
@@ -509,12 +501,12 @@ Cliccando sul bottone *Change Boat* si verrà riportati alla sezione dove è pos
 
 Cliccando su Logout l'utente verrà riportato alla schermata di Login dove potrà inserire di nuovo le credenziali di accesso. 
 
-## TLC Screen
+## TLC
 
-All'interno del `Menu Rapido` è possibile, cliccando sull'apposita icona (rappresentata da un **Media Player**), visualizzare una lista di tutte le proprie telecamere.
+All'interno della `Dashboard` è possibile, cliccando sull'apposito dispositivo TLC, visualizzare una lista di tutte le proprie telecamere.
 
 <div style="margin-top:30px;">
-    <img src="../assets/tlc.png" alt="Telecamere" width ="250">
+    <img src="../assets/tlc1.png" alt="Telecamere" width ="250">
 </div>
 
 Ciò che l'utente vedrà in questa schermata sarà l'ultimo `Snapshot` effettuato da ogni telecamera.
@@ -522,7 +514,7 @@ Ciò che l'utente vedrà in questa schermata sarà l'ultimo `Snapshot` effettuat
 Cliccando su una delle telecamere a disposizione si verrà reindirizzati nella schermata di dettaglio di quella specifica telecamera.
 
 <div style="margin-top:30px;">
-    <img src="../assets/single_tlc.png" alt="Change Pin" width ="250">
+    <img src="../assets/tlc2.png" alt="Sigle TLC" width ="250">
 </div>
 
 La schermata di presenterà con un video `live` della telecamera selezionata, con possibilità di azionare il *Fullscreen*, facendo click sul pulsante a destra, o mettere in *Pausa* e poi riprendere dall'istante attuale.
@@ -538,5 +530,3 @@ I giorni selezionabili sul calendario avranno diversi colori:
 Cliccando su un giorno in cui è presente un `evento`, Comparirà un elenco di allarmi corrispondenti al device incriminato. Cliccando sull'evento, si procede all'avvio del `Playback` della registrazione per il canale stream tlc corrente. 
 
 In questo modo la dicitura evidenziata in verde ***Live*** presente in alto a destra verrà sostituita da ***VOD*** evidenziato in giallo, per indicare che il video non è più in diretta bensì si tratta di una registrazione.
-
-Un pulsante ***X*** affianco allo stato ci permetterà di ritornare a visualizzare la live della telecamera.
