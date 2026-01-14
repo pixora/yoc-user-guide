@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://pixora.github.io/yoc-user-guide/</loc>
+        <lastmod>2026-01-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://pixora.github.io/yoc-user-guide/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://pixora.github.io/yoc-user-guide/en/"/>
+    </url>
+    <url>
+        <loc>https://pixora.github.io/yoc-user-guide/Getting_Started/</loc>
+        <lastmod>2026-01-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://pixora.github.io/yoc-user-guide/Getting_Started/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://pixora.github.io/yoc-user-guide/en/Getting_Started/"/>
+    </url>
+    <url>
+        <loc>https://pixora.github.io/yoc-user-guide/Mobile_App/</loc>
+        <lastmod>2026-01-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://pixora.github.io/yoc-user-guide/Mobile_App/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://pixora.github.io/yoc-user-guide/en/Mobile_App/"/>
+    </url>
+    <url>
+        <loc>https://pixora.github.io/yoc-user-guide/Web_App/</loc>
+        <lastmod>2026-01-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://pixora.github.io/yoc-user-guide/Web_App/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://pixora.github.io/yoc-user-guide/en/Web_App/"/>
+    </url>
+    <url>
+        <loc>https://pixora.github.io/yoc-user-guide/en/</loc>
+        <lastmod>2026-01-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://pixora.github.io/yoc-user-guide/en/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://pixora.github.io/yoc-user-guide/"/>
+    </url>
+    <url>
+        <loc>https://pixora.github.io/yoc-user-guide/en/Getting_Started/</loc>
+        <lastmod>2026-01-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://pixora.github.io/yoc-user-guide/en/Getting_Started/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://pixora.github.io/yoc-user-guide/Getting_Started/"/>
+    </url>
+    <url>
+        <loc>https://pixora.github.io/yoc-user-guide/en/Mobile_App/</loc>
+        <lastmod>2026-01-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://pixora.github.io/yoc-user-guide/en/Mobile_App/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://pixora.github.io/yoc-user-guide/Mobile_App/"/>
+    </url>
+    <url>
+        <loc>https://pixora.github.io/yoc-user-guide/en/Web_App/</loc>
+        <lastmod>2026-01-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://pixora.github.io/yoc-user-guide/en/Web_App/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://pixora.github.io/yoc-user-guide/Web_App/"/>
+    </url>
+</urlset>

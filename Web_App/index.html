@@ -1,0 +1,1099 @@
+
+<!doctype html>
+<html lang="it" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://pixora.github.io/yoc-user-guide/Web_App/">
+      
+      
+        <link rel="prev" href="../Mobile_App/">
+      
+      
+      
+        
+          <link rel="alternate" href="./" hreflang="it">
+        
+          <link rel="alternate" href="../en/Web_App/" hreflang="en">
+        
+      
+      
+      <link rel="icon" href="../assets/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>Web App - User Guide</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../css/print-site.css">
+    
+      <link rel="stylesheet" href="../css/print-site-material.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="cyan" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#welcome-to-yacht-on-cloud-user-guide" class="md-skip">
+          Vai al contenuto
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Intestazione">
+    <a href=".." title="User Guide" class="md-header__button md-logo" aria-label="User Guide" data-md-component="logo">
+      
+  <img src="../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            User Guide
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Web App
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Seleziona la lingua">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="./" hreflang="it" class="md-select__link">
+              Italiano
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../en/Web_App/" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Cerca" placeholder="Cerca" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Cerca">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Cancella" aria-label="Cancella" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inizializza la ricerca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Summary
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../Getting_Started/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Getting Started
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../Mobile_App/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Mobile App
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Web App
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../print_page/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Print
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigazione" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="User Guide" class="md-nav__button md-logo" aria-label="User Guide" data-md-component="logo">
+      
+  <img src="../assets/logo.png" alt="logo">
+
+    </a>
+    User Guide
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Summary
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Getting_Started/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Getting Started
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Mobile_App/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mobile App
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Web App
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Web App
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Indice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Indice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#login-screen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Login Screen
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vessel-selection-page" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vessel Selection Page
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vessel-dashboard" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vessel Dashboard
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Vessel Dashboard">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-boat-info" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Boat Info
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-menu-rapido" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Menu Rapido
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dashboard-devices" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dashboard Devices
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Dashboard Devices">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-device-infos-card" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Device infos Card
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-telemetries-card" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Telemetries Card
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dashboard-alarms" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dashboard Alarms
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Dashboard Alarms">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-registrazioni" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Registrazioni
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tracking-page" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tracking Page
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#faq" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        F.A.Q
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#logout" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Logout
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../print_page/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Print
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Indice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Indice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#login-screen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Login Screen
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vessel-selection-page" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vessel Selection Page
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vessel-dashboard" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vessel Dashboard
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Vessel Dashboard">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-boat-info" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Boat Info
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-menu-rapido" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Menu Rapido
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dashboard-devices" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dashboard Devices
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Dashboard Devices">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-device-infos-card" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Device infos Card
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-telemetries-card" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Telemetries Card
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dashboard-alarms" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dashboard Alarms
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Dashboard Alarms">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-registrazioni" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Registrazioni
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tracking-page" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tracking Page
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#faq" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        F.A.Q
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#logout" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Logout
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<p><img alt="Logo" src="../assets/logo2.png" title="Logo" /></p>
+<h1 id="welcome-to-yacht-on-cloud-user-guide">Welcome to Yacht On Cloud user guide.</h1>
+<h2 id="login-screen">Login Screen</h2>
+<p>Per effettuare il log-in è obbligatorio l’inserimento nei form dei seguenti campi: </p>
+<ul>
+<li><code>Tenant</code>: Nome identificativo dello specifico tenant abilitato.</li>
+<li><code>Email</code>: La propria e-mail che rappresenta la chiave univoca dell’utente.</li>
+<li><code>Password</code>: La propria password.</li>
+</ul>
+<div style="margin-top: 30px;">
+    <img src="..\assets\login-web-app.png" alt="Login Screen" width="250">
+</div>
+
+<p>Dopo aver riempito i campi sarà possibile cliccare sul tasto <code>Log In</code>.</p>
+<p>In caso di credenziali errate l'utente verrà informato con un messaggio di errore.</p>
+<p>In caso di credenziali corrette l'utente passerà alla prossima schermata.</p>
+<h2 id="vessel-selection-page">Vessel Selection Page</h2>
+<p>In questa schermata l'utente customer avrà la possibilità di visualizzare i propri <code>vessel</code> registrati all'interno del sistema, navigare nella <strong><a href="#tracking-page">Tracking Page</a></strong>, o nelle <strong><a href="#faq">F.A.Q</a></strong> attraverso i pulsanti posti in alto.</p>
+<div style="margin-top: 30px;">
+    <img src="../assets/vessels-web-app.png" alt="Vessel Screen" width="750">
+</div>
+
+<p>Il bollino <code>verde</code> o <code>rosso</code> delle card rappresentanti i vessel indicherà rispettivamente una imbarcazione online (raggiungibile) o offline (non raggiungibile). </p>
+<p>Cliccando sul tasto <code>Registry</code>, apparirà la card che contiene le informazioni principali del vessel. E' possibile, inoltre, poter vedere in anteprima e scaricare un file che contiene le informazioni dei relativi sensori.</p>
+<div style="margin-top: 30px;">
+    <img src="../assets/registry-vessel.png" alt="Vessel registry" width="750">
+</div>
+
+<p>Il tasto <code>Explore</code>, invece, reindirizza alla pagina <strong>Vessel Dashboard</strong>.</p>
+<h2 id="vessel-dashboard">Vessel Dashboard</h2>
+<div style="margin-bottom: 30px;"></div>
+
+<div>
+    <img src="..\assets\vessel-home-web-app.png" alt="Home Screen" width="750">
+</div>
+
+<div style="margin-bottom: 30px;"></div>
+
+<h3 id="1-boat-info">1. Boat Info</h3>
+<p>La dashboard si presenta in questo modo. </p>
+<p>In alto troveremo le informazioni riguardanti l'imbarcazione: </p>
+<ul>
+<li>Il nome e la tipologia della propria imbarcazione: <code>Yatch</code>, <code>Catamarano</code> , <code>Dinghi</code> o <code>Sailboat</code>.</li>
+<li>Lo stato dell'imbarcazione: Se essa è raggiungibile o meno: <code>Attivo</code> o <code>Non attivo</code>.</li>
+<li>Se risulta armata oppure no: <code>Armed</code> o <code>Disarmed</code>.</li>
+<li>Se risulta ancorata oppure no: <code>Anchored</code> o <code>Unanchored</code>.</li>
+</ul>
+<p>Lo stato di entrambe le operazioni di ormeggio sono modificabili cliccando sul tasto corrispondente.</p>
+<div style="text-align: center; margin-top:30px;">
+    <img src="..\assets\barra-descrittiva.png" alt="name and type" width="275">
+    <img src="../assets/barra-descrittiva2.png" alt="Status ship" width="243" style="display: inline-block; margin-left: 30px;">
+</div>
+
+<p>L'immagine centrale cambierà in base alla <code>tipologia</code> di imbarcazione di cui siamo in possesso. </p>
+<p>In caso non sia presente un evento allarmante riguardante l'imbarcazione, o la barca risulta disarmata prima che sia scattato l'allarme, lo sfondo apparirà <code>blu</code> e le icone relative ad esse <code>verdi</code>.</p>
+<p>In caso sia presente un evento allarmante riguardante l'imbarcazione che risulta armata, lo sfondo alle spalle sarà <code>rosso</code>, così come le icone relative ad esse.</p>
+<div style="text-align: center; margin-top:30px;">
+    <img src="..\assets\vessel-non-allarme.png" alt="Not Alarmed Ship" width="250">
+    <img src="../assets/vessel-in-allarme.png" alt="Alarmed Ship" width="243" style="display: inline-block; margin-left: 30px;">
+</div>
+
+<p>Lungo la destra è presente un menù laterale con 3 bottoni che ci consentono di:</p>
+<ul>
+<li>Far apparire la card relativa allo stato dei motori se si clicca sul tasto <code>Engines</code>.</li>
+<li>Far apparire la card relativa ai valori dei sensori ambientali ed allo stato degli allarmi se si clicca sul tasto <code>Alarms</code>.</li>
+</ul>
+<div style="text-align: center; margin-top:30px;">
+    <img src="../assets/engine-alarms-card.png" alt="Armed Disarmed" width="750">
+</div>
+
+<ul>
+<li>Far apparire la card relativa alle info del vessel se si clicca sul tasto <code>Registry</code>.</li>
+</ul>
+<div style="text-align: center; margin-top:30px; margin-bottom:30px;">
+    <img src="../assets/registry.png" alt="Armed Disarmed" width="350">
+</div>
+
+<div style="margin-bottom: 50px;"></div>
+
+<h3 id="2-menu-rapido">2. Menu Rapido</h3>
+<p>Lungo la sinistra dello schermo, invece, è disponibile un menù rapido.</p>
+<div style="text-align: center; margin-top:30px; margin-bottom:30px;">
+    <img src="../assets/menu-rapido.png" alt="Armed Disarmed" width="50">
+</div>
+
+<p>In questo menu è possibile visionare le informazioni relative alla dashboard principale, device, mappa e allarmi: <code>Home, Devices, Map, Alarm</code>.</p>
+<p>Ogni pulsante del menu reindirizzerà l'utente verso una sezione specifica di cui tratteremo in seguito. <strong><a href="#dashboard-devices">(Dashboard Devices)</a></strong>, <strong><a href="#dashboard-alarms">(Dashboard Alarms)</a></strong>, <strong><a href="#tracking-page">(Tracking Page)</a></strong>. </p>
+<h2 id="dashboard-devices">Dashboard Devices</h2>
+<p>Per poter visualizzare i dispositivi disponibili per la nostra imbarcazione è necessario utilizzare il <code>Menu Rapido</code> per andare ad analizzare la macrocategoria di dispositivi a cui siamo interessati, cliccando sul pulsante "Devices" (raffigurato da un icona apposita) che farà apparire una schermata con tutti i dispositivi.</p>
+<p>Cliccando sull'icona per visualizzare tutti i dispositivi avremo questa schermata.</p>
+<div style="text-align:center; margin-top: 30px;">
+    <img src="../assets/devices.png" alt="Devices1" width="750" style="display: inline-block;">
+</div>
+
+<div style="margin-top: 50px;"></div>
+
+<p>Ogni riga che troviamo in questa schermata corrisponde ad un device, ogni device ha la sua pagina con i relativi dettagli.</p>
+<p>Accanto a ciascun dispositivo compare anche un pulsante che consentirà di accedere alla sezione <em>Telemetries</em> per la visualizzazione tutte le telemetrie per una più completa ricerca. <strong><a href="#2-telemetries-card">(Vedi Telemetries Card)</a></strong>.</p>
+<p>Infine è possibile filtrare la lista di dispositivi presenti per tipo di dispositivo.</p>
+<p><em>Questi funzionamenti sono uguali per tutti i dispositivi.</em></p>
+<h3 id="1-device-infos-card">1. Device infos Card</h3>
+<p>Cliccando sul pulsante <code>Device infos</code>, apparirà la card <em>info device</em> che serve per consultare le informazioni di un determinato dispositivo.</p>
+<p>E' costituita da una coppia chiave-valore che consente di poter avere dettagli più precisi circa le caratteristiche del dispositivo, come ad esempio la temperatura che, nel dispositivo di cui sotto, è espressa in gradi Celsius.</p>
+<div style="text-align: center; margin-top:30px; margin-bottom:70px">
+    <img src="../assets/device-info.png" alt="device-info" width ="550">
+</div>
+
+<h3 id="2-telemetries-card">2. Telemetries Card</h3>
+<p>Cliccando sul pulsante <code>Telemetries</code> apparirà la card <em>Telemetry</em> che serve per monitorare i dati dei dispositivi.</p>
+<div style="margin-top:30px;">
+    <img src="../assets/telemetry-card.png" alt="telemtry-card" width ="550">
+</div>
+
+<ul>
+<li><strong>Key</strong> = Rappresenta il dato.</li>
+<li><strong>Value</strong> = Rappresenta il valore del dato.</li>
+<li><strong>Timestamp</strong> = Rappresenta la marca temporale che accerta l'avvenimento dell'ultimo evento.</li>
+<li><strong>Graphic</strong> = Rappresenta un grafico delle ultime telemetrie di un dato.</li>
+</ul>
+<p>Il pulsante <code>Graphics</code> farà apparire una card che rappresenta visivamente le ultime telemetrie durante un arco temporale.</p>
+<div style="margin-top:30px; margin-bottom:70px;">
+    <img src="../assets/grafico-telemetries.png" alt="telemtry-graphic" width ="750">
+</div>
+
+<p>Oltre alla visualizzazione di default del grafico, è possibile impostare dei filtri per avere un grafico personalizzato.</p>
+<h2 id="dashboard-alarms">Dashboard Alarms</h2>
+<p>Dal <code>Menu Rapido</code> è possibile, cliccando sull'apposita icona (rappresentata da una <strong>campanella</strong>), visualizzare la schermata relativa agli allarmi.</p>
+<p>Dalla dashboard possiamo capire quale dispositivo ha fatto scattare un allarme indicando data e orario, il tipo di allarme, la gravità ed il suo stato.</p>
+<div style="margin-top:30px;">
+    <img src="../assets/schermata-allarmi.png" alt="Alarm Screen" width ="800">
+</div>
+
+<p>E' disponibile la funzionalità che consente di poter applicare dei filtri per ottenere una lista di allarmi personalizzata impostando un data range, tipo e stato di allarme. </p>
+<p>Vi è la possibilità, cliccando sul bottone apposito, di andare a visualizzare le registrazioni delle telecamere durante gli allarmi.</p>
+<h3 id="1-registrazioni">1. Registrazioni</h3>
+<p>Al momento della ricezione di un allarme, le telecamere inizieranno a registrare. Il sistema consente di poter visualizzare i video registrati.</p>
+<div style="margin-top:30px;">
+    <img src="../assets/allarme-registrazione.png" alt="Alarm Screen" width ="800">
+</div>
+
+<p>Lungo il lato sinistro della schermata è possibile visualizzare la lista delle telecamere disponibili, al cui interno è possibile consultare il video registrato durante l'allarme, tagliato in vari frammenti.</p>
+<h2 id="tracking-page">Tracking Page</h2>
+<p>All'interno del <code>Menu rapido</code> è possibile, cliccando sull'apposita icona (rappresentata da una <strong>Mappa</strong>), il tracking in tempo reale su una mappa della propria imbarcazione.</p>
+<div style="text-align:center; margin-top:30px;">
+    <img src="../assets/map.png" alt="Mappa" width ="650">
+</div>
+
+<p>Cliccando sull'icona delle impostazioni sarà possibile vedere i vessel online, quelli offline o entrambi.</p>
+<h2 id="faq">F.A.Q</h2>
+<p>In questa pagina l’utente potrà leggere le <code>F.A.Q</code> (domande frequenti), e richiedere assistenza tramite le apposite informazioni di contatto. </p>
+<div style="margin-top:30px;">
+    <img src="../assets/faq-web.png" alt="faq" width ="750">
+</div>
+
+<h2 id="logout">Logout</h2>
+<p>Cliccando sul bottone in basso a sinistra posto su tutte le schermate dell'app, l'utente potrà effettuare il Logout e verrà, quindi, riportato alla schermata di Login dove potrà inserire di nuovo le credenziali di accesso. </p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.expand", "navigation.tabs", "i18n.alternates"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiato", "clipboard.copy": "Copia", "search.result.more.one": "1 altro in questa pagina", "search.result.more.other": "# altri in questa pagina", "search.result.none": "Nessun documento trovato", "search.result.one": "1 documento trovato", "search.result.other": "# documenti trovati", "search.result.placeholder": "Scrivi per iniziare a cercare", "search.result.term.missing": "Non presente", "select.version": "Seleziona la versione"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="../js/print-site.js"></script>
+      
+    
+  </body>
+</html>
