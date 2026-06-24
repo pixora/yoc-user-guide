@@ -38,8 +38,8 @@ On this screen, the user will be able to view their `Vessels` registered within 
 If only one vessel is present for a specific customer, it will be automatically selected immediately after the login screen. If multiple customers/vessels are available, the user can scroll through them and select the desired vessel.
 
 <div style="text-align: center; margin-top:30px;">
-    <img src="../../../assets/select_vessel1.png" alt="Vessel Screen" width="250">
-    <img src="../../../assets/select_vessel2.png" alt="Vessel Screen 2" width="250" style="display: inline-block; margin-left: 30px;">
+    <img src="../../assets/select_vessel1.png" alt="Vessel Screen" width="250">
+    <img src="../../assets/select_vessel2.png" alt="Vessel Screen 2" width="250" style="display: inline-block; margin-left: 30px;">
 </div>
 
 The color of the icon, `green` or `gray`, will indicate an online (reachable) or offline (unreachable) vessel, respectively. 
@@ -80,9 +80,9 @@ The color of the icon, `green` or `gray`, will indicate an online (reachable) or
 
 - Notifications (Bell Icon): Access to the history of alerts and alarms.
 
-- Map (Open Map Icon): Full-screen view of the cartography.
+- Cameras (Camera Icon): View camera list.
 
-- Geofencing (Placeholder Icon): Access to geographical security perimeter settings.
+- Map (Open Map Icon): Full-screen view of the cartography.
 
 - Settings (Gear Icon): Access to profile and app configuration.
 
@@ -117,8 +117,8 @@ A scrollable list showing all available sensors (e.g., Door, TriSensor, Smoke) i
 For devices that monitor multiple parameters, a submenu is displayed listing the specific measurements available.
 
 <div style="text-align: center; margin-top:30px;">
-    <img src="../../assets/add_device1.png" alt="Vessel Screen" width="250">
-    <img src="../../assets/add_device2.png" alt="Vessel Screen 2" width="250" style="display: inline-block; margin-left: 30px;">
+    <img src="../../assets/add_device1.png" alt="Add Device Screen" width="250">
+    <img src="../../assets/add_device2.png" alt="Add Device Screen 2" width="250" style="display: inline-block; margin-left: 30px;">
 </div>
 
 **Actions and Controls**
@@ -453,7 +453,7 @@ It is possible to modify the profile picture by clicking the appropriate button.
 
 ### 2. Settings Page
 
-On this page, the user can view all app settings: vibration, ringtone.
+On this page, the user can enable local mode.
 
 <div style="margin-top:30px;">
     <img src="../../assets/settings_notification.png" alt="Settings" width ="250">
@@ -487,11 +487,13 @@ By clicking Logout, the user will be taken back to the Login screen where they c
 
 ## TLC
 
-Within the `Dashboard`, it is possible, by clicking on the appropriate TLC device, to view a list of all your cameras.
+The camera list can be accessed in two ways: by clicking on the appropriate TLC device within the `Dashboard`, or via the Cameras icon in the bottom navigation bar.
 
 <div style="margin-top:30px;">
     <img src="../../assets/tlc1.png" alt="Telecamere" width ="250">
 </div>
+
+> **Note:** A banner at the top of the screen informs the user that camera data (snapshots, video streams) are retrieved directly from the vessel, so loading times may vary depending on the quality of the connection to the vessel. The banner updates dynamically to reflect the current connection status: if the link to the vessel is poor or unavailable, the banner will notify the user accordingly, ensuring they are always aware of any potential slowdowns.
 
 What the user will see on this screen will be the latest `Snapshot` taken by each camera.
 

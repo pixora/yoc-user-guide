@@ -82,9 +82,9 @@ Il colore dell'icona `verde` o `grigia` indicherà rispettivamente un'imbarcazio
 
 - Notifiche (Icona Campanella): Accesso allo storico degli avvisi e degli allarmi.
 
-- Mappa (Icona Mappa Aperta): Visualizzazione della cartografia a schermo intero.
+- Telecamere (Icona Fotocamera): Visualizzazione della lista delle telecamere.
 
-- Geofencing (Icona Segnaposto): Accesso alle impostazioni dei perimetri di sicurezza geografica.
+- Mappa (Icona Mappa Aperta): Visualizzazione della cartografia a schermo intero.
 
 - Impostazioni (Icona Ingranaggio): Accesso alla configurazione del profilo e dell'app.
 
@@ -118,8 +118,8 @@ Una lista a scorrimento che mostra tutti i sensori disponibili (es. Door, TriSen
 Per i dispositivi che monitorano più parametri viene visualizzato un sottomenu che elenca le specifiche misurazioni disponibili.
 
 <div style="text-align: center; margin-top:30px;">
-    <img src="../assets/add_device1.png" alt="Vessel Screen" width="250">
-    <img src="../assets/add_device2.png" alt="Vessel Screen 2" width="250" style="display: inline-block; margin-left: 30px;">
+    <img src="../assets/add_device1.png" alt="Add Device Screen" width="250">
+    <img src="../assets/add_device2.png" alt="Add Device Screen 2" width="250" style="display: inline-block; margin-left: 30px;">
 </div>
 
 **Azioni e Controlli**
@@ -469,7 +469,7 @@ In questa pagina l’utente potrà visualizzare le proprie informazioni quali `t
 
 ### 2. Settings Page
 
-In questa pagina l’utente potrà visualizzare tutte le impostazioni dell’app: vibrazione, suoneria.
+In questa pagina l’utente può abilitare la modalità locale.
 
 <div style="margin-top:30px;">
     <img src="../assets/settings_notification.png" alt="Settings" width ="250">
@@ -503,11 +503,13 @@ Cliccando su Logout l'utente verrà riportato alla schermata di Login dove potr�
 
 ## TLC
 
-All'interno della `Dashboard` è possibile, cliccando sull'apposito dispositivo TLC, visualizzare una lista di tutte le proprie telecamere.
+È possibile accedere alla lista delle telecamere in due modi: cliccando sull'apposito dispositivo TLC all'interno della `Dashboard`, oppure tramite l'icona Telecamere nella barra di navigazione inferiore.
 
 <div style="margin-top:30px;">
     <img src="../assets/tlc1.png" alt="Telecamere" width ="250">
 </div>
+
+> **Nota:** Nella parte superiore della schermata è presente un banner che informa l'utente che i dati delle telecamere (snapshot, flussi video) vengono recuperati direttamente dal vessel, pertanto i tempi di caricamento possono variare in base alla qualità del collegamento con l'imbarcazione. Il banner si aggiorna dinamicamente per riflettere lo stato attuale della connessione: se il collegamento al vessel è scarso o assente, il banner lo segnala tempestivamente, mantenendo sempre l'utente informato di eventuali rallentamenti.
 
 Ciò che l'utente vedrà in questa schermata sarà l'ultimo `Snapshot` effettuato da ogni telecamera.
 
