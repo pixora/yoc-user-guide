@@ -30,6 +30,10 @@
 
 - [Dashboard Device](Web_App.md#dashboard-devices)
 
+- [Tracking Page](Web_App.md#tracking-page)
+
 - [Alarms Dashboard](Web_App.md#dashboard-alarms)
 
-- [Tracking Page](Web_App.md#tracking-page)
+- [Maintenance](Web_App.md#maintenance)
+
+- [Routes](Web_App.md#routes)

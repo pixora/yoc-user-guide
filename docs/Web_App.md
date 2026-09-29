@@ -22,7 +22,7 @@ In caso di credenziali corrette l'utente passerà alla prossima schermata.
 
 ## Vessel Selection Page
 
-In questa schermata l'utente customer avrà la possibilità di visualizzare i propri `vessel` registrati all'interno del sistema, navigare nella **[Tracking Page](#tracking-page)**, o nelle **[F.A.Q](#faq)** attraverso i pulsanti posti in alto.
+In questa schermata l'utente customer avrà la possibilità di visualizzare i propri `vessel` registrati all'interno del sistema, e navigare nella **[Tracking Page](#tracking-page)** attraverso il pulsante posto in alto.
 
 <div style="margin-top: 30px;">
     <img src="../assets/vessels-web-app.png" alt="Vessel Screen" width="750">
@@ -104,9 +104,9 @@ Lungo la sinistra dello schermo, invece, è disponibile un menù rapido.
     <img src="../assets/menu-rapido.png" alt="Armed Disarmed" width="50">
 </div>
 
-In questo menu è possibile visionare le informazioni relative alla dashboard principale, device, mappa e allarmi: `Home, Devices, Map, Alarm`.
+In questo menu è possibile visionare le informazioni relative alla dashboard principale, device, mappa e allarmi: `Home, Devices, Map, Alarm, Maintenance, Routes`.
 
-Ogni pulsante del menu reindirizzerà l'utente verso una sezione specifica di cui tratteremo in seguito. **[(Dashboard Devices)](#dashboard-devices)**, **[(Dashboard Alarms)](#dashboard-alarms)**, **[(Tracking Page)](#tracking-page)**. 
+Ogni pulsante del menu reindirizzerà l'utente verso una sezione specifica di cui tratteremo in seguito. **[(Dashboard Devices)](#dashboard-devices)**, **[(Tracking Page)](#tracking-page)**, **[(Dashboard Alarms)](#dashboard-alarms)**, **[(Maintenance)](#maintenance)**, **[(Routes)](#routes)**.
 
 ## Dashboard Devices
 
@@ -197,13 +197,64 @@ All'interno del `Menu rapido` è possibile, cliccando sull'apposita icona (rappr
 
 Cliccando sull'icona delle impostazioni sarà possibile vedere i vessel online, quelli offline o entrambi.
 
-##  F.A.Q
+## Maintenance
 
-In questa pagina l’utente potrà leggere le `F.A.Q` (domande frequenti), e richiedere assistenza tramite le apposite informazioni di contatto. 
+Dal `Menu Rapido` è possibile, cliccando sull'apposita icona (rappresentata da una **chiave inglese**), accedere alla schermata *Maintenance*, che elenca tutte le manutenzioni programmate per l'imbarcazione.
 
 <div style="margin-top:30px;">
-    <img src="../assets/faq-web.png" alt="faq" width ="750">
+    <img src="../assets/maintenance1-web.png" alt="Maintenance" width ="800">
 </div>
+
+Per ogni manutenzione presente in elenco vengono mostrate le seguenti informazioni: `Title` (nome della manutenzione), `Start` (data e ora di inizio), `Duration (min)` (durata prevista in minuti), `Priority` (priorità) e `State` (stato: `SCHEDULED`, `IN_PROGRESS`, `COMPLETED`, ecc.).
+
+Nella colonna `Actions` sono disponibili due pulsanti per ciascuna riga: l'icona della `matita` per modificare la manutenzione e l'icona del `cestino` per eliminarla. In basso è presente un sistema di paginazione per scorrere l'elenco quando le manutenzioni sono numerose.
+
+### 1. Creazione di una Manutenzione
+
+Cliccando sul pulsante `+ New` in alto a destra si apre la finestra modale *New event*, che consente di creare una nuova manutenzione.
+
+<div style="margin-top:30px;">
+    <img src="../assets/maintenance2-web.png" alt="New event" width ="550">
+</div>
+
+Nella finestra è possibile compilare i seguenti campi:
+
+* `Title`: Nome identificativo della manutenzione.
+* `Description`: Descrizione libera della manutenzione da svolgere.
+* `Start date and time`: Data e ora di inizio pianificata.
+* `Duration (minutes)`: Durata prevista, espressa in minuti.
+* `Priority`: Priorità della manutenzione (es. Low, Medium, High).
+* `State`: Stato della manutenzione, impostato di default su `SCHEDULED` in fase di creazione.
+
+I destinatari delle notifiche relative alla manutenzione vengono configurati automaticamente dal sistema, come indicato nell'apposita nota presente nella finestra.
+
+Al termine della compilazione è possibile cliccare su `Save` per confermare la creazione, oppure su `Cancel` per annullare l'operazione.
+
+### 2. Modifica di una Manutenzione
+
+Cliccando sull'icona della `matita` in corrispondenza di una manutenzione già presente in elenco, si apre la finestra modale *Edit event*, che consente di consultare e modificare tutti i campi inseriti in fase di creazione, incluso lo `State` della manutenzione.
+
+<div style="margin-top:30px;">
+    <img src="../assets/maintenance3-web.png" alt="Edit event" width ="550">
+</div>
+
+In questa finestra è inoltre presente la sezione `Notifications`, che riepiloga il canale utilizzato per l'invio del promemoria (`Channel`, es. EMAIL), l'anticipo con cui verrà notificato rispetto all'orario di inizio (`Advance`, es. 60 minuti prima) e gli eventuali destinatari configurati (`Recipients`).
+
+Anche in questa schermata è possibile confermare le modifiche tramite il pulsante `Save`, oppure annullarle tramite `Cancel`.
+
+## Routes
+
+Dal `Menu Rapido` è possibile, cliccando sull'apposita icona, accedere alla schermata *Routes*, che elenca tutte le rotte percorse dall'imbarcazione.
+
+<div style="margin-top:30px;">
+    <img src="../assets/routes-web.png" alt="Routes" width ="800">
+</div>
+
+In alto sono disponibili i filtri `From` e `To`, che consentono di impostare un intervallo temporale e restringere l'elenco delle rotte cliccando sul pulsante `Filter`; il pulsante `Clear` rimuove i filtri applicati.
+
+Per ogni rotta presente in elenco vengono mostrate le seguenti informazioni: `Start` (data e ora di partenza), `End` (data e ora di arrivo), `Distance (Mi)` (distanza percorsa, espressa in miglia), `Duration` (durata del tragitto), `Avg speed (kn)` (velocità media, espressa in nodi) e `Fuel (lt)` (consumo di carburante, espresso in litri).
+
+Nella colonna `Actions` è disponibile l'icona a forma di `occhio`, che consente di visualizzare i dettagli della rotta selezionata.
 
 ## Logout
 

@@ -33,7 +33,7 @@ Verrà inviata una email all'indirizzo fornito per effettuare il reset.
 
 ## Selezione del Vessel
 
-In questa schermata l'utente avrà la possibilità di visualizzare i propri `Vessel`, registrati all'interno del sistema.
+In questa schermata l'utente avrà la possibilità di visualizzare i propri `Vessel`, su mappa o lista, registrati all'interno del sistema.
 
 Se per un determinato customer è presente un solo vessel, questo verrà selezionato automaticamente subito dopo la schermata di login. Nel caso in cui siano disponibili più customer, l’utente potrà scorrerli e selezionare il vessel desiderato.
 
@@ -42,9 +42,7 @@ Se per un determinato customer è presente un solo vessel, questo verrà selezio
     <img src="../assets/select_vessel2.png" alt="Vessel Screen 2" width="250" style="display: inline-block; margin-left: 30px;">
 </div>
 
-
-Il colore dell'icona `verde` o `grigia` indicherà rispettivamente un'imbarcazione online (raggiungibile) o offline (non raggiungibile). 
-
+Il colore dell'icona `verde` o `rossa` indicherà rispettivamente un'imbarcazione online (raggiungibile) o offline (non raggiungibile). 
 
 ## Vessel Dashboard
 
@@ -467,7 +465,45 @@ In questa pagina l’utente potrà visualizzare le proprie informazioni quali `t
 
 È possibile modificare l’immagine di profilo cliccando sull’apposito pulsante. Verrà aperto un menu che consente di selezionare una foto dall’archivio del dispositivo oppure di scattarne una nuova.
 
-### 2. Settings Page
+### 2. Maintenance
+
+Cliccando su *Maintenance* si accede alla schermata *List Reminder*, dove sono elencati tutti i promemoria di manutenzione creati per l'imbarcazione, ciascuno con il proprio nome, data e stato (`Scheduled`, `In progress`, `Completed`).
+
+<div style="margin-top: 30px;">
+    <img src="../assets/maintenance1.png" alt="List Reminder" width="250" style="display: inline-block;">
+</div>
+
+In alto a destra è presente il pulsante *Filter by date*, che consente di filtrare l'elenco dei reminder in base a una data specifica.
+
+Cliccando sul pulsante `+` in basso a destra è possibile creare un nuovo reminder di manutenzione.
+
+<div style="margin-top: 30px;">
+    <img src="../assets/maintenance2.png" alt="Add Reminder" width="250" style="display: inline-block;">
+</div>
+
+Nella schermata *Add Reminder* l'utente può compilare i seguenti campi:
+
+* `Name Maintenance`: Nome identificativo del reminder.
+* *Write note*: Campo di testo libero per aggiungere una nota o una descrizione.
+* `Duration (min)`: Durata prevista dell'intervento, espressa in minuti.
+* `Priority`: Livello di priorità del reminder (es. Low, Medium, High).
+* *Select date*: Calendario per selezionare la data (ed eventualmente l'orario) in cui pianificare la manutenzione.
+
+Cliccando su un reminder già esistente dalla lista, si accede alla relativa schermata di dettaglio, dove è possibile consultare e modificare le informazioni inserite in fase di creazione, oltre allo `State` (Scheduled, In progress, Completed) del reminder.
+
+<div style="margin-top: 30px;">
+    <img src="../assets/maintenance3.png" alt="Reminder Detail" width="250" style="display: inline-block;">
+</div>
+
+Dalla schermata di dettaglio è inoltre possibile eliminare il reminder tramite l'icona del `cestino` in basso a sinistra, oppure confermare le modifiche apportate tramite la freccia in basso a destra.
+
+Circa un'ora prima della data e ora pianificate, l'utente riceverà una notifica o un popup di *Event reminder* relativo alla manutenzione in scadenza, da cui sarà possibile aggiornare direttamente lo `State` del reminder e confermare tramite l'apposito pulsante.
+
+<div style="margin-top: 30px;">
+    <img src="../assets/maintenance4.png" alt="Event Reminder" width="250" style="display: inline-block;">
+</div>
+
+### 3. Settings Page
 
 In questa pagina l’utente può abilitare la modalità locale.
 
@@ -475,29 +511,29 @@ In questa pagina l’utente può abilitare la modalità locale.
     <img src="../assets/settings_notification.png" alt="Settings" width ="250">
 </div>
 
-### 3. Change Pin
+### 4. Change Pin
 
 Cliccando su *Change Pin* si aprirà la schermata dove sarà possibile cambiare il pin per poter armare e disarmare l'imbarcazione.
 
 Inizialmente viene dato un pin di *default* che è consigliabile cambiare il prima possibile e crearne uno personalizzato per una maggiore sicurezza.
 
-<div style="text-align:center; margin-top:30px;">
+<div style="margin-top:30px;">
     <img src="../assets/change_pin.png" alt="Change Pin" width ="250">
 </div>
 
-### 4. Change Password for Wi-Fi
+### 5. Change Password for Wi-Fi
 
 Cliccando su *Change Password for Wi-Fi* si apre la schermata dedicata, dalla quale è possibile modificare la password della rete Wi-Fi del dispositivo pixora-edge, utilizzata per la connessione a Internet.
 
-<div style="text-align:center; margin-top:30px;">
+<div style="margin-top:30px;">
     <img src="../assets/change_wifi_password.png" alt="Change Wi-Fi" width ="250">
 </div>
 
-### 5. Change Boat
+### 6. Change Boat
 
 Cliccando sul bottone *Change Boat* si verrà riportati alla sezione dove è possibile selezionare un'altra imbarcazione tra quelle in possesso.
 
-### 6. Logout
+### 7. Logout
 
 Cliccando su Logout l'utente verrà riportato alla schermata di Login dove potrà inserire di nuovo le credenziali di accesso. 
 
