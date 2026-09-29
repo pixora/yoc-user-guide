@@ -33,7 +33,7 @@ An email will be sent to the address provided to perform the reset.
 
 ## Vessel Selection
 
-On this screen, the user will be able to view their `Vessels` registered within the system.
+On this screen the user will be able to view their `Vessels`, on a map or in a list, registered within the system.
 
 If only one vessel is present for a specific customer, it will be automatically selected immediately after the login screen. If multiple customers/vessels are available, the user can scroll through them and select the desired vessel.
 
@@ -42,7 +42,7 @@ If only one vessel is present for a specific customer, it will be automatically 
     <img src="../../assets/select_vessel2.png" alt="Vessel Screen 2" width="250" style="display: inline-block; margin-left: 30px;">
 </div>
 
-The color of the icon, `green` or `gray`, will indicate an online (reachable) or offline (unreachable) vessel, respectively. 
+The color of the icon, `green` or `red`, will indicate an online (reachable) or offline (unreachable) vessel, respectively. 
 
 ## Vessel Dashboard
 
@@ -451,7 +451,45 @@ On this page, the user can view their information such as `tenant`, `customer`, 
 
 It is possible to modify the profile picture by clicking the appropriate button. A menu will open allowing you to select a photo from the device's archive or take a new one.
 
-### 2. Settings Page
+### 2. Maintenance
+
+By clicking on *Maintenance*, the user accesses the *List Reminder* screen, which lists all the maintenance reminders created for the vessel, each with its own name, date, and status (`Scheduled`, `In progress`, `Completed`).
+
+<div style="margin-top: 30px;">
+    <img src="../../assets/maintenance1.png" alt="List Reminder" width="250" style="display: inline-block;">
+</div>
+
+In the top right corner, the *Filter by date* button allows the reminder list to be filtered by a specific date.
+
+By clicking the `+` button in the bottom right corner, a new maintenance reminder can be created.
+
+<div style="margin-top: 30px;">
+    <img src="../../assets/maintenance2.png" alt="Add Reminder" width="250" style="display: inline-block;">
+</div>
+
+On the *Add Reminder* screen, the user can fill in the following fields:
+
+* `Name Maintenance`: Name identifying the reminder.
+* *Write note*: Free text field for adding a note or description.
+* `Duration (min)`: Expected duration of the task, expressed in minutes.
+* `Priority`: Priority level of the reminder (e.g. Low, Medium, High).
+* *Select date*: Calendar used to select the date (and, if applicable, the time) for scheduling the maintenance.
+
+By clicking on an existing reminder from the list, the user accesses its detail screen, where the information entered during creation can be reviewed and edited, in addition to the reminder's `State` (Scheduled, In progress, Completed).
+
+<div style="margin-top: 30px;">
+    <img src="../../assets/maintenance3.png" alt="Reminder Detail" width="250" style="display: inline-block;">
+</div>
+
+From the detail screen, it is also possible to delete the reminder using the `trash` icon in the bottom left corner, or to confirm any changes made using the arrow in the bottom right corner.
+
+Approximately one hour before the scheduled date and time, the user will receive a notification or an *Event reminder* popup for the upcoming maintenance, from which the reminder's `State` can be updated directly and confirmed via the dedicated button.
+
+<div style="margin-top: 30px;">
+    <img src="../../assets/maintenance4.png" alt="Event Reminder" width="250" style="display: inline-block;">
+</div>
+
+### 3. Settings Page
 
 On this page, the user can enable local mode.
 
@@ -459,29 +497,29 @@ On this page, the user can enable local mode.
     <img src="../../assets/settings_notification.png" alt="Settings" width ="250">
 </div>
 
-### 3. Change Pin
+### 4. Change Pin
 
 By clicking *Change Pin*, the screen will open where it will be possible to change the pin for arming and disarming the vessel.
 
 Initially, a *default* pin is provided, which it is recommended to change as soon as possible and create a personalized one for greater security.
 
-<div style="text-align:center; margin-top:30px;">
+<div style="margin-top:30px;">
     <img src="../../assets/change_pin.png" alt="Change Pin" width ="250">
 </div>
 
-### 4. Change Password for Wi-Fi
+### 5. Change Password for Wi-Fi
 
 By clicking *Change Password for Wi-Fi*, the dedicated screen opens from which it is possible to modify the password of the pixora-edge device's Wi-Fi network, used for internet connection.
 
-<div style="text-align:center; margin-top:30px;">
+<div style="margin-top:30px;">
     <img src="../../assets/change_wifi_password.png" alt="Change Wi-Fi" width ="250">
 </div>
 
-### 5. Change Boat
+### 6. Change Boat
 
 By clicking the *Change Boat* button, you will be taken back to the section where you can select another vessel from those you own.
 
-### 6. Logout
+### 7. Logout
 
 By clicking Logout, the user will be taken back to the Login screen where they can re-enter their access credentials. 
 
