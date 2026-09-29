@@ -1,0 +1,1219 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://pixora.github.io/yoc-user-guide/en/Web_App/">
+      
+      
+        <link rel="prev" href="../Mobile_App/">
+      
+      
+      
+        
+          <link rel="alternate" href="../../Web_App/" hreflang="it">
+        
+          <link rel="alternate" href="./" hreflang="en">
+        
+      
+      
+      <link rel="icon" href="../../assets/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Web App - User Guide</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../css/print-site.css">
+    
+      <link rel="stylesheet" href="../../css/print-site-material.css">
+    
+      <link rel="stylesheet" href="../../css/print-site.css">
+    
+      <link rel="stylesheet" href="../../css/print-site-material.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="cyan" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#welcome-to-yacht-on-cloud-user-guide" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../" title="User Guide" class="md-header__button md-logo" aria-label="User Guide" data-md-component="logo">
+      
+  <img src="../../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            User Guide
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Web App
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Select language">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="../../Web_App/" hreflang="it" class="md-select__link">
+              Italiano
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="./" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Summary
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../Getting_Started/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Getting Started
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../Mobile_App/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Mobile App
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Web App
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../print_page/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Print
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../" title="User Guide" class="md-nav__button md-logo" aria-label="User Guide" data-md-component="logo">
+      
+  <img src="../../assets/logo.png" alt="logo">
+
+    </a>
+    User Guide
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Summary
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Getting_Started/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Getting Started
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Mobile_App/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mobile App
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Web App
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Web App
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#login-screen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Login Screen
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vessel-selection-page" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vessel Selection Page
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vessel-dashboard" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vessel Dashboard
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Vessel Dashboard">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-boat-info" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Boat Info
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-quick-menu" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Quick Menu
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dashboard-devices" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dashboard Devices
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Dashboard Devices">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-device-infos-card" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Device Infos Card
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-telemetries-card" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Telemetries Card
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dashboard-alarms" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dashboard Alarms
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Dashboard Alarms">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-recordings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Recordings
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tracking-page" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tracking Page
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#maintenance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Maintenance
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Maintenance">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-creating-a-maintenance-event" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Creating a Maintenance Event
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-editing-a-maintenance-event" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Editing a Maintenance Event
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#routes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Routes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#logout" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Logout
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../print_page/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Print
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#login-screen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Login Screen
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vessel-selection-page" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vessel Selection Page
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vessel-dashboard" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vessel Dashboard
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Vessel Dashboard">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-boat-info" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Boat Info
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-quick-menu" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Quick Menu
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dashboard-devices" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dashboard Devices
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Dashboard Devices">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-device-infos-card" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Device Infos Card
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-telemetries-card" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Telemetries Card
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dashboard-alarms" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dashboard Alarms
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Dashboard Alarms">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-recordings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Recordings
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tracking-page" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tracking Page
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#maintenance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Maintenance
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Maintenance">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-creating-a-maintenance-event" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Creating a Maintenance Event
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-editing-a-maintenance-event" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Editing a Maintenance Event
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#routes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Routes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#logout" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Logout
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<p><img alt="Logo" src="../../assets/logo2.png" title="Logo" /></p>
+<h1 id="welcome-to-yacht-on-cloud-user-guide">Welcome to Yacht On Cloud user guide.</h1>
+<h2 id="login-screen">Login Screen</h2>
+<p>To perform the log-in, it is mandatory to enter the following fields in the forms: </p>
+<ul>
+<li><code>Tenant</code>: Identification name of the specific enabled tenant.</li>
+<li><code>Email</code>: Your e-mail address, which represents the user's unique key.</li>
+<li><code>Password</code>: Your password.</li>
+</ul>
+<div style="margin-top: 30px;">
+    <img src="../../assets/login-web-app.png" alt="Login Screen" width="250">
+</div>
+
+<p>After filling in the fields, you can click on the <code>Log In</code> button.</p>
+<p>In case of incorrect credentials, the user will be informed with an error message.</p>
+<p>If the credentials are correct, the user will proceed to the next screen.</p>
+<h2 id="vessel-selection-page">Vessel Selection Page</h2>
+<p>On this screen the customer user will be able to view their <code>vessels</code> registered within the system, and navigate to the <strong><a href="#tracking-page">Tracking Page</a></strong> via the button located at the top.</p>
+<div style="margin-top: 30px;">
+    <img src="../../assets/vessels-web-app.png" alt="Vessel Screen" width="750">
+</div>
+
+<p>The <code>green</code> or <code>red</code> dot on the vessel cards will indicate an online (reachable) or offline (unreachable) vessel, respectively. </p>
+<p>By clicking the <code>Registry</code> button, the card containing the vessel's main information will appear. It is also possible to preview and download a file containing the information for the related sensors.</p>
+<div style="margin-top: 30px;">
+    <img src="../../assets/registry-vessel.png" alt="Vessel registry" width="750">
+</div>
+
+<p>The <code>Explore</code> button, on the other hand, redirects to the <strong>Vessel Dashboard</strong> page.</p>
+<h2 id="vessel-dashboard">Vessel Dashboard</h2>
+<div style="margin-bottom: 30px;"></div>
+
+<div>
+    <img src="../../assets/vessel-home-web-app.png" alt="Home Screen" width="750">
+</div>
+
+<div style="margin-bottom: 30px;"></div>
+
+<h3 id="1-boat-info">1. Boat Info</h3>
+<p>The dashboard looks like this. </p>
+<p>At the top, we will find information regarding the vessel: </p>
+<ul>
+<li>The name and type of the vessel: <code>Yacht</code>, <code>Catamaran</code>, <code>Dinghy</code>, or <code>Sailboat</code>.</li>
+<li>The vessel's status: Whether it is reachable or not: <code>Active</code> or <code>Not Active</code>.</li>
+<li>Whether it is armed or not: <code>Armed</code> or <code>Disarmed</code>.</li>
+<li>Whether it is anchored or not: <code>Anchored</code> or <code>Unanchored</code>.</li>
+</ul>
+<p>The status of both mooring operations can be changed by clicking the corresponding button.</p>
+<div style="text-align: center; margin-top:30px;">
+    <img src="../../assets/barra-descrittiva.png" alt="name and type" width="275">
+    <img src="../../assets/barra-descrittiva2.png" alt="Status ship" width="243" style="display: inline-block; margin-left: 30px;">
+</div>
+
+<p>The central image will change based on the <code>type</code> of vessel owned. </p>
+<p>If there is no alarming event regarding the vessel, or the boat is disarmed before the alarm was triggered, the background will appear <code>blue</code> and the related icons <code>green</code>.</p>
+<p>If there is an alarming event regarding the vessel while it is armed, the background will be <code>red</code>, as will the related icons.</p>
+<div style="text-align: center; margin-top:30px;">
+    <img src="../../assets/vessel-non-allarme.png" alt="Not Alarmed Ship" width="250">
+    <img src="../../assets/vessel-in-allarme.png" alt="Alarmed Ship" width="243" style="display: inline-block; margin-left: 30px;">
+</div>
+
+<p>On the right side there is a side menu with 3 buttons that allow us to:</p>
+<ul>
+<li>Show the card related to the engine status by clicking the <code>Engines</code> button.</li>
+<li>Show the card related to the environmental sensor values and alarm status by clicking the <code>Alarms</code> button.</li>
+</ul>
+<div style="text-align: center; margin-top:30px;">
+    <img src="../../assets/engine-alarms-card.png" alt="Armed Disarmed" width="750">
+</div>
+
+<ul>
+<li>Show the card related to the vessel's info by clicking the <code>Registry</code> button.</li>
+</ul>
+<div style="text-align: center; margin-top:30px; margin-bottom:30px;">
+    <img src="../../assets/registry.png" alt="Armed Disarmed" width="350">
+</div>
+
+<div style="margin-bottom: 50px;"></div>
+
+<h3 id="2-quick-menu">2. Quick Menu</h3>
+<p>On the left side of the screen, a quick menu is available instead.</p>
+<div style="text-align: center; margin-top:30px; margin-bottom:30px;">
+    <img src="../../assets/menu-rapido.png" alt="Armed Disarmed" width="50">
+</div>
+
+<p>In this menu it is possible to view information related to the main dashboard, devices, map, and alarms: <code>Home, Devices, Map, Alarm, Maintenance, Routes</code>.</p>
+<p>Each button in the menu will redirect the user to a specific section, which we will cover below. <strong><a href="#dashboard-devices">(Dashboard Devices)</a></strong>, <strong><a href="#tracking-page">(Tracking Page)</a></strong>, <strong><a href="#dashboard-alarms">(Dashboard Alarms)</a></strong>, <strong><a href="#maintenance">(Maintenance)</a></strong>, <strong><a href="#routes">(Routes)</a></strong>.</p>
+<h2 id="dashboard-devices">Dashboard Devices</h2>
+<p>To view the devices available for our vessel, it is necessary to use the <code>Quick Menu</code> to look into the macro-category of devices we are interested in, by clicking the "Devices" button (depicted by a dedicated icon), which will display a screen with all the devices.</p>
+<p>By clicking the icon to view all devices, we will see this screen.</p>
+<div style="text-align:center; margin-top: 30px;">
+    <img src="../../assets/devices.png" alt="Devices1" width="750" style="display: inline-block;">
+</div>
+
+<div style="margin-top: 50px;"></div>
+
+<p>Each row found on this screen corresponds to a device; each device has its own page with the related details.</p>
+<p>Next to each device there is also a button that grants access to the <em>Telemetries</em> section, to view all the telemetries for a more thorough search. <strong><a href="#2-telemetries-card">(See Telemetries Card)</a></strong>.</p>
+<p>Finally, it is possible to filter the list of devices present by device type.</p>
+<p><em>These functionalities are the same for all devices.</em></p>
+<h3 id="1-device-infos-card">1. Device Infos Card</h3>
+<p>By clicking the <code>Device infos</code> button, the <em>info device</em> card will appear, used to consult the information of a specific device.</p>
+<p>It consists of a key-value pair that provides more precise details about the device's characteristics, such as the temperature which, in the device shown below, is expressed in degrees Celsius.</p>
+<div style="text-align: center; margin-top:30px; margin-bottom:70px">
+    <img src="../../assets/device-info.png" alt="device-info" width ="550">
+</div>
+
+<h3 id="2-telemetries-card">2. Telemetries Card</h3>
+<p>By clicking the <code>Telemetries</code> button, the <em>Telemetry</em> card will appear, used to monitor device data.</p>
+<div style="margin-top:30px;">
+    <img src="../../assets/telemetry-card.png" alt="telemtry-card" width ="550">
+</div>
+
+<ul>
+<li><strong>Key</strong> = Represents the data.</li>
+<li><strong>Value</strong> = Represents the value of the data.</li>
+<li><strong>Timestamp</strong> = Represents the timestamp confirming the occurrence of the last event.</li>
+<li><strong>Graphic</strong> = Represents a chart of the latest telemetries for a given data point.</li>
+</ul>
+<p>The <code>Graphics</code> button will display a card that visually represents the latest telemetries over a time span.</p>
+<div style="margin-top:30px; margin-bottom:70px;">
+    <img src="../../assets/grafico-telemetries.png" alt="telemtry-graphic" width ="750">
+</div>
+
+<p>In addition to the default chart view, it is possible to set filters for a customized chart.</p>
+<h2 id="dashboard-alarms">Dashboard Alarms</h2>
+<p>From the <code>Quick Menu</code>, it is possible to view the alarms screen by clicking the appropriate icon (depicted by a <strong>bell</strong>).</p>
+<p>From the dashboard, we can see which device triggered an alarm, indicating the date and time, the alarm type, severity, and its status.</p>
+<div style="margin-top:30px;">
+    <img src="../../assets/schermata-allarmi.png" alt="Alarm Screen" width ="800">
+</div>
+
+<p>A feature is available that allows applying filters to obtain a customized list of alarms by setting a date range, type, and alarm status. </p>
+<p>By clicking the appropriate button, it is possible to view the camera recordings captured during the alarms.</p>
+<h3 id="1-recordings">1. Recordings</h3>
+<p>Upon receiving an alarm, the cameras will start recording. The system allows viewing the recorded videos.</p>
+<div style="margin-top:30px;">
+    <img src="../../assets/allarme-registrazione.png" alt="Alarm Screen" width ="800">
+</div>
+
+<p>Along the left side of the screen, it is possible to view the list of available cameras, within which the video recorded during the alarm can be consulted, split into several fragments.</p>
+<h2 id="tracking-page">Tracking Page</h2>
+<p>Within the <code>Quick Menu</code>, it is possible to activate real-time tracking of the vessel on a map by clicking the appropriate icon (depicted by a <strong>Map</strong>).</p>
+<div style="text-align:center; margin-top:30px;">
+    <img src="../../assets/map.png" alt="Mappa" width ="650">
+</div>
+
+<p>By clicking the settings icon, it is possible to view online vessels, offline vessels, or both.</p>
+<h2 id="maintenance">Maintenance</h2>
+<p>From the <code>Quick Menu</code>, it is possible to access the <em>Maintenance</em> screen by clicking the appropriate icon (depicted by a <strong>wrench</strong>), which lists all the maintenance events scheduled for the vessel.</p>
+<div style="margin-top:30px;">
+    <img src="../../assets/maintenance1-web.png" alt="Maintenance" width ="800">
+</div>
+
+<p>For each maintenance event in the list, the following information is shown: <code>Title</code> (maintenance name), <code>Start</code> (start date and time), <code>Duration (min)</code> (expected duration in minutes), <code>Priority</code>, and <code>State</code> (status: <code>SCHEDULED</code>, <code>IN_PROGRESS</code>, <code>COMPLETED</code>, etc.).</p>
+<p>In the <code>Actions</code> column, two buttons are available for each row: the <code>pencil</code> icon to edit the maintenance event and the <code>trash</code> icon to delete it. At the bottom, a pagination system is available to scroll through the list when there are many maintenance events.</p>
+<h3 id="1-creating-a-maintenance-event">1. Creating a Maintenance Event</h3>
+<p>By clicking the <code>+ New</code> button in the top right corner, the <em>New event</em> modal window opens, allowing a new maintenance event to be created.</p>
+<div style="margin-top:30px;">
+    <img src="../../assets/maintenance2-web.png" alt="New event" width ="550">
+</div>
+
+<p>In the window, the following fields can be filled in:</p>
+<ul>
+<li><code>Title</code>: Name identifying the maintenance event.</li>
+<li><code>Description</code>: Free text description of the maintenance to be carried out.</li>
+<li><code>Start date and time</code>: Scheduled start date and time.</li>
+<li><code>Duration (minutes)</code>: Expected duration, expressed in minutes.</li>
+<li><code>Priority</code>: Priority of the maintenance event (e.g. Low, Medium, High).</li>
+<li><code>State</code>: Status of the maintenance event, set by default to <code>SCHEDULED</code> when created.</li>
+</ul>
+<p>The recipients of notifications related to the maintenance event are configured automatically by the system, as indicated in the dedicated note shown in the window.</p>
+<p>Once filled in, you can click <code>Save</code> to confirm the creation, or <code>Cancel</code> to cancel the operation.</p>
+<h3 id="2-editing-a-maintenance-event">2. Editing a Maintenance Event</h3>
+<p>By clicking the <code>pencil</code> icon corresponding to a maintenance event already present in the list, the <em>Edit event</em> modal window opens, allowing you to view and edit all the fields entered during creation, including the maintenance event's <code>State</code>.</p>
+<div style="margin-top:30px;">
+    <img src="../../assets/maintenance3-web.png" alt="Edit event" width ="550">
+</div>
+
+<p>This window also includes a <code>Notifications</code> section, which summarizes the channel used to send the reminder (<code>Channel</code>, e.g. EMAIL), how far in advance the notification will be sent relative to the start time (<code>Advance</code>, e.g. 60 minutes before), and any configured recipients (<code>Recipients</code>).</p>
+<p>On this screen as well, changes can be confirmed via the <code>Save</code> button, or discarded via <code>Cancel</code>.</p>
+<h2 id="routes">Routes</h2>
+<p>From the <code>Quick Menu</code>, it is possible to access the <em>Routes</em> screen by clicking the appropriate icon, which lists all the routes traveled by the vessel.</p>
+<div style="margin-top:30px;">
+    <img src="../../assets/routes-web.png" alt="Routes" width ="800">
+</div>
+
+<p>At the top, the <code>From</code> and <code>To</code> filters are available, allowing a time range to be set to narrow down the list of routes by clicking the <code>Filter</code> button; the <code>Clear</code> button removes the applied filters.</p>
+<p>For each route in the list, the following information is shown: <code>Start</code> (departure date and time), <code>End</code> (arrival date and time), <code>Distance (Mi)</code> (distance traveled, expressed in miles), <code>Duration</code> (trip duration), <code>Avg speed (kn)</code> (average speed, expressed in knots), and <code>Fuel (lt)</code> (fuel consumption, expressed in liters).</p>
+<p>In the <code>Actions</code> column, the <code>eye</code> icon is available, which allows viewing the details of the selected route.</p>
+<h2 id="logout">Logout</h2>
+<p>By clicking the button in the bottom left corner, present on all screens of the app, the user can log out and will be taken back to the Login screen, where they can re-enter their access credentials. </p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.expand", "navigation.tabs", "i18n.alternates"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../../js/print-site.js"></script>
+      
+        <script src="../../js/print-site.js"></script>
+      
+    
+  </body>
+</html>
